@@ -1,7 +1,13 @@
 {
   "task_id": "20261021141811",
-  "state": "running",
-  "result": {},
+  "state": "done",
+  "result": {
+    "ok": true,
+    "message": "GitHub queue test passed",
+    "received_parameters": {
+      "check": "github"
+    }
+  },
   "error": "",
-  "updated_at": "2026-10-21T23:42:41.922393+00:00"
+  "updated_at": "2026-10-21T23:42:43.790984+00:00"
 }
