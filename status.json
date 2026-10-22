@@ -1,7 +1,12 @@
 {
   "task_id": "20261022231240",
-  "state": "running",
-  "result": {},
+  "state": "done",
+  "result": {
+    "ok": true,
+    "part_name": "model2",
+    "full_path": "C:\\Program Files\\Siemens\\NX2212\\UGII\\model2.prt",
+    "body_count": 1
+  },
   "error": "",
-  "updated_at": "2026-10-22T23:12:45.779868+00:00"
+  "updated_at": "2026-10-22T23:13:11.486438+00:00"
 }
