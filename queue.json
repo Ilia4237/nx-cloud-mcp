@@ -1,7 +1,7 @@
 {
-  "task_id": "20261022231616",
-  "action": "nx_part_info",
+  "task_id": "20261023100900_queue_test",
+  "action": "test_queue",
   "parameters": {},
-  "created_at": "2026-10-22T23:16:16.082347+00:00",
+  "created_at": "2026-10-23T07:10:59.184095+00:00",
   "status": "pending"
 }
