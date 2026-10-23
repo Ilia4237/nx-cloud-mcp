@@ -1,23 +1,7 @@
 {
-  "task_id": "20261023133700_monocoque_preview_state_diagnostic",
-  "state": "failed",
-  "result": {
-    "task_id": "20261023133700_monocoque_preview_state_diagnostic",
-    "ok": false,
-    "error": "Traceback (most recent call last):\n  File \"C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\2bb758dabb6df12c6e3c57bb\\runner.py\", line 9, in <module>\n    runpy.run_path(str(root/'payload.py'),run_name='__main__')\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 289, in run_path\n    return _run_module_code(code, init_globals, run_name,\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 96, in _run_module_code\n    _run_code(code, mod_globals, init_globals,\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\2bb758dabb6df12c6e3c57bb\\payload.py\", line 72, in <module>\n    raise RuntimeError(\"NX did not create a non-empty PNG\")\nRuntimeError: NX did not create a non-empty PNG\n",
-    "artifacts": [
-      "MONOCOQUE_PREVIEW.txt"
-    ],
-    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\2bb758dabb6df12c6e3c57bb",
-    "remote_artifacts": [
-      {
-        "name": "MONOCOQUE_PREVIEW.txt",
-        "repository_path": "results/2bb758dabb6df12c6e3c57bb/MONOCOQUE_PREVIEW.txt",
-        "bytes": 1865,
-        "sha256": "af42077dfd8c52f648282bc5ee3aad5d07215a29535ebbb2dab4ea570058008a"
-      }
-    ]
-  },
-  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\2bb758dabb6df12c6e3c57bb\\runner.py\", line 9, in <module>\n    runpy.run_path(str(root/'payload.py'),run_name='__main__')\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 289, in run_path\n    return _run_module_code(code, init_globals, run_name,\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 96, in _run_module_code\n    _run_code(code, mod_globals, init_globals,\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\2bb758dabb6df12c6e3c57bb\\payload.py\", line 72, in <module>\n    raise RuntimeError(\"NX did not create a non-empty PNG\")\nRuntimeError: NX did not create a non-empty PNG\n",
-  "updated_at": "2026-10-23T10:49:26.923903+00:00"
+  "task_id": "20261023135200_monocoque_preview_batchshade",
+  "state": "running",
+  "result": {},
+  "error": "",
+  "updated_at": "2026-10-23T10:54:15.367242+00:00"
 }
