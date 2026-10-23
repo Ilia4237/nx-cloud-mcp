@@ -1,14 +1,7 @@
 {
-  "task_id": "20261023102900_create_plate",
-  "state": "done",
-  "result": {
-    "task_id": "20261023102900_create_plate",
-    "ok": true,
-    "artifacts": [
-      "plate_test.prt"
-    ],
-    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\e6292a17caa2ad23f1d00b0f"
-  },
+  "task_id": "20261023104300_monocoque_v01",
+  "state": "queued",
+  "result": {},
   "error": "",
-  "updated_at": "2026-10-23T07:32:25.965492+00:00"
+  "updated_at": "2026-10-23T07:44:37.666248+00:00"
 }
