@@ -1,22 +1,7 @@
 {
-  "task_id": "20261023184500_geometry_distances",
-  "state": "done",
-  "result": {
-    "task_id": "20261023184500_geometry_distances",
-    "ok": true,
-    "artifacts": [
-      "GEOMETRY_REPORT.txt"
-    ],
-    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\18ebff2826ca9dbf24d49ae0",
-    "remote_artifacts": [
-      {
-        "name": "GEOMETRY_REPORT.txt",
-        "repository_path": "results/18ebff2826ca9dbf24d49ae0/GEOMETRY_REPORT.txt",
-        "bytes": 29195,
-        "sha256": "d90c061cd727247c169be63a14ef96d59b23d622b89750a85023b3d50816ec7a"
-      }
-    ]
-  },
+  "task_id": "20261023184800_interference_audit",
+  "state": "running",
+  "result": {},
   "error": "",
-  "updated_at": "2026-10-23T15:46:59.929905+00:00"
+  "updated_at": "2026-10-23T15:48:58.005029+00:00"
 }
