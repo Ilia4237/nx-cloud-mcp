@@ -1,31 +1,7 @@
 {
-  "task_id": "20261023101200_agent_info",
-  "state": "done",
-  "result": {
-    "ok": true,
-    "diagnostics": {
-      "time": "2026-10-23T07:12:54.808752+00:00",
-      "computer": "ASUSVIVOBOOK16X",
-      "nx_root": "C:\\Program Files\\Siemens\\NX2212",
-      "nx_executable_exists": true,
-      "nx_batch_runner_exists": true,
-      "license_environment_read_only": {
-        "SPLM_LICENSE_SERVER": "28000@brttc",
-        "UGS_LICENSE_SERVER": null
-      },
-      "siemens_folder_names": [
-        "NX1980",
-        "NX2212"
-      ],
-      "adapters": {
-        "nx_batch": "implemented; local NX execution NOT validated",
-        "nx_open_window": "not implemented",
-        "simcenter3d": "not enabled; requires adapter verification",
-        "starccm": "not implemented",
-        "other_siemens": "not implemented"
-      }
-    }
-  },
+  "task_id": "20261023102000_nx_smoke_test",
+  "state": "queued",
+  "result": {},
   "error": "",
-  "updated_at": "2026-10-23T07:12:54.808752+00:00"
+  "updated_at": "2026-10-23T07:22:07.014605+00:00"
 }
