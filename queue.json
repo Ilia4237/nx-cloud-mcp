@@ -1,11 +1,11 @@
 {
-  "task_id": "20261023135200_monocoque_preview_batchshade",
+  "task_id": "20261023140200_monocoque_preview_batchshade_retry",
   "status": "pending",
   "action": "run_job",
   "parameters": {
     "application": "nx",
     "mode": "batch",
     "script_path": "jobs/nx_preview.py",
-    "sha256": "f95abd7ceb87358d5bcbb4d256468f33be4aed84d3cb3abdc51694c2b9bb49ce"
+    "sha256": "fb4c738e333d5113cccece3415cdf16026f0f35d298ddc52a4ecd45013794e31"
   }
 }
