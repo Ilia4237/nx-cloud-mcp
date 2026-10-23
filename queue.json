@@ -1,11 +1,1 @@
-{
-  "task_id": "20261023174400_shade_method_diagnostic",
-  "status": "pending",
-  "action": "run_job",
-  "parameters": {
-    "application": "nx",
-    "mode": "batch",
-    "script_path": "jobs/nx_shade_diagnostic.py",
-    "sha256": "ca95d181116aa4dff8a2842d3f7495f8005f3cb7bf508aeeebd2fdad981fae88"
-  }
-}
+{"task_id":"20261023175400_preview_jpeg","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/preview_jpeg.py","sha256":"d1349221f62f1b3762ca5721a59e4874fde385f487f7b37f0e880460a4259c9b"}}
