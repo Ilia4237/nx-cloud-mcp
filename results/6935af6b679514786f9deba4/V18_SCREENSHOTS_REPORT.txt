@@ -1,0 +1,12 @@
+{
+  "views": [],
+  "images": [],
+  "errors": [
+    "iso: 'NXOpen.UF.View' object has no attribute 'SetOrientation'",
+    "front: 'NXOpen.UF.View' object has no attribute 'SetOrientation'",
+    "top: 'NXOpen.UF.View' object has no attribute 'SetOrientation'",
+    "right: 'NXOpen.UF.View' object has no attribute 'SetOrientation'"
+  ],
+  "saved": true,
+  "output": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\abdb0f5f42bd5f9d2cc3e356\\Monocoque_EDU_v07_layup.prt"
+}
