@@ -1,1 +1,1 @@
-{"task_id":"20261023194400_assign_v06_cfrp_save_fixed","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/assign_v06_cfrp_save_fixed.py","sha256":"c58138d4fb945e82e8e1eaf225e356267f21738d218c60db2a2ff01527f0be0b"}}
+{"task_id":"20261023194900_assign_v06_core","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/assign_v06_core.py","sha256":"3d30d447dcb13080f958fa930d2cc7b6ef523d82aee263c3fd4591d2402bc708"}}
