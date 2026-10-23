@@ -1,7 +1,7 @@
 {
-  "task_id": "20261023100900_queue_test",
-  "action": "test_queue",
+  "task_id": "20261023101200_agent_info",
+  "action": "agent_info",
   "parameters": {},
-  "created_at": "2026-10-23T07:10:59.184095+00:00",
+  "created_at": "2026-10-23T07:12:45.929547+00:00",
   "status": "pending"
 }
