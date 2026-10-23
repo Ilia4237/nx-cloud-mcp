@@ -17,12 +17,9 @@ if session is None:
     raise RuntimeError("NX session unavailable")
 ufs = NXOpen.UF.UFSession.GetUFSession()
 
-load_status = None
 part = None
 try:
-    part, load_status = session.Parts.OpenBasePart(str(part_path))
-    if load_status is not None:
-        load_status.Dispose()
+    part = session.Parts.Open(str(part_path))
     if part is None:
         raise RuntimeError("NX could not open the part")
     session.Parts.SetWork(part)
