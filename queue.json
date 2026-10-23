@@ -1,7 +1,12 @@
 {
-  "task_id": "20261023101200_agent_info",
-  "action": "agent_info",
-  "parameters": {},
-  "created_at": "2026-10-23T07:12:45.929547+00:00",
+  "task_id": "20261023102000_nx_smoke_test",
+  "action": "run_job",
+  "parameters": {
+    "application": "nx",
+    "mode": "batch",
+    "script_path": "jobs/nx_smoke_test.py",
+    "sha256": "8785557ac7b3572d25a444a33212ae0d7b32900c0da5c9a47139f58a2e1107f0"
+  },
+  "created_at": "2026-10-23T07:22:05.299023+00:00",
   "status": "pending"
 }
