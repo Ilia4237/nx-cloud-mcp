@@ -1,0 +1,25 @@
+{
+  "assignments": [
+    {
+      "material": "EDU_CFRP_QUASI_ISO",
+      "bodies": [
+        "TUB_U__OUTER_CFRP",
+        "TUB_U__INNER_CFRP",
+        "FRONT_BULKHEAD__OUTER_CFRP",
+        "REAR_BULKHEAD__OUTER_CFRP",
+        "FRONT_BULKHEAD__INNER_CFRP",
+        "REAR_BULKHEAD__INNER_CFRP",
+        "FRONT_DECK__OUTER_CFRP",
+        "FRONT_DECK__INNER_CFRP",
+        "V05_FRONT_CONTINUOUS_REINFORCEMENT",
+        "V03_REAR_EXTERNAL_U_STRAP",
+        "V03_LEFT_COCKPIT_EDGE_CAP",
+        "V03_RIGHT_COCKPIT_EDGE_CAP"
+      ]
+    }
+  ],
+  "errors": [
+    "Function takes 2 arguments, 0 passed."
+  ],
+  "saved": false
+}
