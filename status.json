@@ -1,22 +1,7 @@
 {
-  "task_id": "20261023202300_create_v16_laminate_v07",
-  "state": "done",
-  "result": {
-    "task_id": "20261023202300_create_v16_laminate_v07",
-    "ok": true,
-    "artifacts": [
-      "V16_LAMINATE_V07_REPORT.txt"
-    ],
-    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\04758c3f68bb813ca81dc92e",
-    "remote_artifacts": [
-      {
-        "name": "V16_LAMINATE_V07_REPORT.txt",
-        "repository_path": "results/04758c3f68bb813ca81dc92e/V16_LAMINATE_V07_REPORT.txt",
-        "bytes": 2177,
-        "sha256": "df2670e3bb3f3a1a3d75313ea47e607d13c0510a068f3c1927e7a9920665cc1b"
-      }
-    ]
-  },
+  "task_id": "20261023202500_create_v17_laminate_v07_fixed",
+  "state": "running",
+  "result": {},
   "error": "",
-  "updated_at": "2026-10-23T17:25:27.220105+00:00"
+  "updated_at": "2026-10-23T17:26:42.531591+00:00"
 }
