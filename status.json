@@ -1,22 +1,7 @@
 {
-  "task_id": "20261023185400_v05_material_inventory",
-  "state": "done",
-  "result": {
-    "task_id": "20261023185400_v05_material_inventory",
-    "ok": true,
-    "artifacts": [
-      "V05_MATERIAL_INVENTORY.txt"
-    ],
-    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\7126d5cc05ebd2d8b3b6a2c9",
-    "remote_artifacts": [
-      {
-        "name": "V05_MATERIAL_INVENTORY.txt",
-        "repository_path": "results/7126d5cc05ebd2d8b3b6a2c9/V05_MATERIAL_INVENTORY.txt",
-        "bytes": 5388,
-        "sha256": "d02d071f775561cc3579d853be73d09594da068db8282ae23062508fb41ef2ec"
-      }
-    ]
-  },
+  "task_id": "20261023185600_build_v06_materials",
+  "state": "running",
+  "result": {},
   "error": "",
-  "updated_at": "2026-10-23T16:03:58.002953+00:00"
+  "updated_at": "2026-10-23T16:12:09.792499+00:00"
 }
