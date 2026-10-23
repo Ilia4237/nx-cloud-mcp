@@ -1,1 +1,1 @@
-{"task_id":"20261023191900_v06_material_diag","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/v06_material_diagnostic.py","sha256":"c719868b275cbb8b80b1a81d1e831a1504dd0ae2cc350454ee112be175071640"}}
+{"task_id":"20261023193100_v06_material_diag_fixed","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/v06_material_diag_fixed.py","sha256":"fa9625c75432b71781835ac1c6a9ed25b57ee2a4775194230f48922fe9ac4d6a"}}
