@@ -1,7 +1,22 @@
 {
   "task_id": "20261023201100_assign_v09_core_ortho_v2",
-  "state": "running",
-  "result": {},
+  "state": "done",
+  "result": {
+    "task_id": "20261023201100_assign_v09_core_ortho_v2",
+    "ok": true,
+    "artifacts": [
+      "V09_CORE_ORTHO_V2_REPORT.txt"
+    ],
+    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\ed5f0462af406e235c576ede",
+    "remote_artifacts": [
+      {
+        "name": "V09_CORE_ORTHO_V2_REPORT.txt",
+        "repository_path": "results/ed5f0462af406e235c576ede/V09_CORE_ORTHO_V2_REPORT.txt",
+        "bytes": 351,
+        "sha256": "01bd25d7971c3cbd0826f0ea65a335ac4ed22be6b825affbd5116cee1a6749af"
+      }
+    ]
+  },
   "error": "",
-  "updated_at": "2026-10-23T17:11:50.589770+00:00"
+  "updated_at": "2026-10-23T17:12:14.783713+00:00"
 }
