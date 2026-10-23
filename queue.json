@@ -1,1 +1,1 @@
-{"task_id":"20261023201000_assign_v08_core_ortho","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/assign_v08_core_ortho.py","sha256":"1246464e2de074eeb46b1da3b924e13bf830fc64ae9c365e4f1c83c0083fd025"}}
+{"task_id":"20261023201100_assign_v09_core_ortho_v2","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/assign_v09_core_ortho_v2.py","sha256":"298f1e675010753a1e7b503d6d44d2cfe71324beaa39a7fe5f08c0d6e3ebbd64"}}
