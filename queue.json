@@ -1,11 +1,11 @@
 {
-  "task_id": "20261023123100_monocoque_preview_api_fix",
+  "task_id": "20261023123500_monocoque_preview_tuple_fix",
   "status": "pending",
   "action": "run_job",
   "parameters": {
     "application": "nx",
     "mode": "batch",
     "script_path": "jobs/nx_preview.py",
-    "sha256": "3276337fef80bc075859f0f52fce44a5b70d57d92c43929ad1b5eb84129c3dc3"
+    "sha256": "565c4b6f95766aea38b74eac16fa8b2f289446d6f5f5e0f095def00c21accdfb"
   }
 }

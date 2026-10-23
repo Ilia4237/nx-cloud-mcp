@@ -17,11 +17,14 @@ if session is None:
     raise RuntimeError("NX session unavailable")
 ufs = NXOpen.UF.UFSession.GetUFSession()
 
-part = None
+opened = session.Parts.Open(str(part_path))
+part, load_status = opened if isinstance(opened, tuple) else (opened, None)
+if load_status is not None:
+    load_status.Dispose()
+if part is None:
+    raise RuntimeError("NX could not open the part")
+
 try:
-    part = session.Parts.Open(str(part_path))
-    if part is None:
-        raise RuntimeError("NX could not open the part")
     session.Parts.SetWork(part)
     view = part.ModelingViews.WorkView
     try:
