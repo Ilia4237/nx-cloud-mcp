@@ -1,0 +1,1333 @@
+{
+  "bodies": [
+    {
+      "name": "TUB_U__OUTER_CFRP",
+      "solid": true,
+      "corner": [
+        22.8,
+        -325.0,
+        0.0
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        1604.4,
+        650.0,
+        450.0
+      ]
+    },
+    {
+      "name": "TUB_U__CORE_EQUIVALENT",
+      "solid": true,
+      "corner": [
+        22.8,
+        -323.6000000000001,
+        1.3999999999999568
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        1604.4,
+        647.2000000000002,
+        448.6000000000001
+      ]
+    },
+    {
+      "name": "TUB_U__INNER_CFRP",
+      "solid": true,
+      "corner": [
+        22.8,
+        -303.4,
+        21.60000000000001
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        1604.4,
+        606.8,
+        428.4
+      ]
+    },
+    {
+      "name": "FRONT_BULKHEAD__OUTER_CFRP",
+      "solid": true,
+      "corner": [
+        0.0,
+        -325.0,
+        0.0
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        1.2,
+        650.0,
+        472.8
+      ]
+    },
+    {
+      "name": "REAR_BULKHEAD__OUTER_CFRP",
+      "solid": true,
+      "corner": [
+        1648.8,
+        -325.0,
+        0.0
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        1.2000000000000899,
+        650.0,
+        472.8
+      ]
+    },
+    {
+      "name": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "solid": true,
+      "corner": [
+        1.4,
+        -325.0,
+        0.0
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        20.0,
+        650.0,
+        472.8
+      ]
+    },
+    {
+      "name": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "solid": true,
+      "corner": [
+        1628.6000000000001,
+        -325.0,
+        0.0
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        20.000000000000018,
+        650.0,
+        472.8
+      ]
+    },
+    {
+      "name": "FRONT_BULKHEAD__INNER_CFRP",
+      "solid": true,
+      "corner": [
+        21.6,
+        -325.0,
+        0.0
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        1.1999999999999997,
+        650.0,
+        472.8
+      ]
+    },
+    {
+      "name": "REAR_BULKHEAD__INNER_CFRP",
+      "solid": true,
+      "corner": [
+        1627.2,
+        -325.0,
+        0.0
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        1.2000000000000899,
+        650.0,
+        472.8
+      ]
+    },
+    {
+      "name": "FRONT_DECK__OUTER_CFRP",
+      "solid": true,
+      "corner": [
+        22.8,
+        -325.0,
+        471.6
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        627.2,
+        650.0,
+        1.1999999999999789
+      ]
+    },
+    {
+      "name": "FRONT_DECK__CORE_EQUIVALENT",
+      "solid": true,
+      "corner": [
+        22.8,
+        -325.0,
+        451.40000000000003
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        627.2,
+        650.0,
+        20.000000000000018
+      ]
+    },
+    {
+      "name": "FRONT_DECK__INNER_CFRP",
+      "solid": true,
+      "corner": [
+        22.8,
+        -325.0,
+        450.0
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        627.2,
+        650.0,
+        1.1999999999999789
+      ]
+    },
+    {
+      "name": "V03_FRONT_EXTERNAL_U_STRAP",
+      "solid": true,
+      "corner": [
+        2.8000000000000007,
+        -327.2,
+        -2.1999999999999797
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        40.0,
+        654.4,
+        452.2
+      ]
+    },
+    {
+      "name": "V03_REAR_EXTERNAL_U_STRAP",
+      "solid": true,
+      "corner": [
+        1607.2000000000003,
+        -327.2,
+        -2.1999999999999797
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        40.000000000000036,
+        654.4,
+        452.2
+      ]
+    },
+    {
+      "name": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "solid": true,
+      "corner": [
+        650.0,
+        302.2,
+        450.2
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        977.2000000000002,
+        22.800000000000043,
+        2.0000000000000018
+      ]
+    },
+    {
+      "name": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "solid": true,
+      "corner": [
+        650.0,
+        -325.0,
+        450.2
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        977.2000000000002,
+        22.800000000000043,
+        2.0000000000000018
+      ]
+    },
+    {
+      "name": "V03_LEFT_DECK_CORNER_STRAP",
+      "solid": true,
+      "corner": [
+        22.8,
+        295.20000000000005,
+        413.00000000000006
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        627.2,
+        31.99999999999997,
+        62.0
+      ]
+    },
+    {
+      "name": "V03_RIGHT_DECK_CORNER_STRAP",
+      "solid": true,
+      "corner": [
+        22.8,
+        -327.2,
+        413.00000000000006
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        627.2,
+        31.99999999999997,
+        62.0
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "TUB_U__CORE_EQUIVALENT",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "TUB_U__INNER_CFRP",
+      "distance": 20.400000000000002
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "FRONT_BULKHEAD__OUTER_CFRP",
+      "distance": 21.6
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "REAR_BULKHEAD__OUTER_CFRP",
+      "distance": 21.600000000000065
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "distance": 1.400000000000002
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "distance": 1.4000000000000679
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "FRONT_BULKHEAD__INNER_CFRP",
+      "distance": 0.0
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "distance": 0.0
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "distance": 21.60000000000001
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "distance": 1.4000000000000123
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "distance": 0.0
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "TUB_U__INNER_CFRP",
+      "distance": 0.20000000000000226
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "FRONT_BULKHEAD__OUTER_CFRP",
+      "distance": 21.6
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "REAR_BULKHEAD__OUTER_CFRP",
+      "distance": 21.600000000000065
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "distance": 1.400000000000002
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "distance": 1.4000000000000679
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "FRONT_BULKHEAD__INNER_CFRP",
+      "distance": 0.0
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "distance": 0.0
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "distance": 21.60000000000001
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "distance": 1.4000000000000123
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "distance": 0.0
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "distance": 1.5999999999999348
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "distance": 1.5999999999999348
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "distance": 1.5999999999999348
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "distance": 1.5999999999999348
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "FRONT_BULKHEAD__OUTER_CFRP",
+      "distance": 21.6
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "REAR_BULKHEAD__OUTER_CFRP",
+      "distance": 21.600000000000065
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "distance": 1.400000000000002
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "distance": 1.4000000000000679
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "FRONT_BULKHEAD__INNER_CFRP",
+      "distance": 0.0
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "distance": 0.0
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "distance": 21.60000000000001
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "distance": 1.4000000000000123
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "distance": 0.0
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "distance": 21.799999999999986
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "distance": 21.799999999999986
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "distance": 21.799999999999986
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "distance": 21.799999999999986
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "REAR_BULKHEAD__OUTER_CFRP",
+      "distance": 1647.6
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "distance": 0.2000000000000001
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "distance": 1627.3999999999999
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_BULKHEAD__INNER_CFRP",
+      "distance": 20.400000000000002
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "distance": 1626.0
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "distance": 21.6
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "distance": 21.6
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "distance": 21.6
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "distance": 1.612451549659708
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "distance": 1606.0000124533003
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "distance": 648.8000000000001
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "distance": 648.8000000000001
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "distance": 21.60092590608097
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "distance": 21.60092590608097
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "distance": 1627.3999999999999
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_BULKHEAD__INNER_CFRP",
+      "distance": 1626.0
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "distance": 20.399999999999974
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "distance": 998.8
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "distance": 998.8
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "distance": 998.8
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "distance": 1606.0000124533003
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "distance": 1.6124515496595322
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "distance": 21.59999999999984
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "distance": 21.59999999999984
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "distance": 998.8000200240285
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "distance": 998.8000200240285
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "distance": 1607.2
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "FRONT_BULKHEAD__INNER_CFRP",
+      "distance": 0.20000000000000226
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "distance": 1605.8
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "distance": 1.400000000000002
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "distance": 1.400000000000002
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "distance": 1.400000000000002
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "distance": 1585.800012611931
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "distance": 628.6
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "distance": 628.6
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "distance": 1.4142135623730938
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "distance": 1.4142135623730938
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "FRONT_BULKHEAD__INNER_CFRP",
+      "distance": 1605.8000000000002
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "distance": 978.5999999999999
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "distance": 978.5999999999999
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "distance": 978.5999999999999
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "distance": 1585.800012611931
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "distance": 1.3999999999998458
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "distance": 1.3999999999998458
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "distance": 978.6000204373591
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "distance": 978.6000204373591
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "distance": 1604.4
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "distance": 0.0
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "distance": 0.0
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "distance": 0.0
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "distance": 1584.4000126230753
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "distance": 627.1999999999999
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "distance": 627.1999999999999
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "distance": 977.1999999999998
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "distance": 977.1999999999998
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "distance": 977.1999999999998
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "distance": 1584.400012623075
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "distance": 0.0
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "distance": 0.0
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "distance": 977.200020466639
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "distance": 977.200020466639
+    },
+    {
+      "a": "FRONT_DECK__OUTER_CFRP",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "FRONT_DECK__OUTER_CFRP",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "distance": 20.40000000000003
+    },
+    {
+      "a": "FRONT_DECK__OUTER_CFRP",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "distance": 21.600925906080978
+    },
+    {
+      "a": "FRONT_DECK__OUTER_CFRP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "distance": 957.4437006947197
+    },
+    {
+      "a": "FRONT_DECK__OUTER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "distance": 19.400000000000027
+    },
+    {
+      "a": "FRONT_DECK__OUTER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "distance": 19.400000000000027
+    },
+    {
+      "a": "FRONT_DECK__OUTER_CFRP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "FRONT_DECK__OUTER_CFRP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "FRONT_DECK__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "distance": 0.20000000000003348
+    },
+    {
+      "a": "FRONT_DECK__CORE_EQUIVALENT",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "distance": 1.414213562373104
+    },
+    {
+      "a": "FRONT_DECK__CORE_EQUIVALENT",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "distance": 957.2010447131784
+    },
+    {
+      "a": "FRONT_DECK__CORE_EQUIVALENT",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "distance": 0.0
+    },
+    {
+      "a": "FRONT_DECK__CORE_EQUIVALENT",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "distance": 0.0
+    },
+    {
+      "a": "FRONT_DECK__CORE_EQUIVALENT",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "FRONT_DECK__CORE_EQUIVALENT",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "FRONT_DECK__INNER_CFRP",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "FRONT_DECK__INNER_CFRP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "distance": 957.2000208942748
+    },
+    {
+      "a": "FRONT_DECK__INNER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "distance": 0.0
+    },
+    {
+      "a": "FRONT_DECK__INNER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "distance": 0.0
+    },
+    {
+      "a": "FRONT_DECK__INNER_CFRP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "FRONT_DECK__INNER_CFRP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "V03_FRONT_EXTERNAL_U_STRAP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "distance": 1564.4000000000003
+    },
+    {
+      "a": "V03_FRONT_EXTERNAL_U_STRAP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "distance": 607.2000658761492
+    },
+    {
+      "a": "V03_FRONT_EXTERNAL_U_STRAP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "distance": 607.2000658761492
+    },
+    {
+      "a": "V03_FRONT_EXTERNAL_U_STRAP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "distance": 0.0
+    },
+    {
+      "a": "V03_FRONT_EXTERNAL_U_STRAP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "distance": 0.0
+    },
+    {
+      "a": "V03_REAR_EXTERNAL_U_STRAP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "distance": 0.28284271247458787
+    },
+    {
+      "a": "V03_REAR_EXTERNAL_U_STRAP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "distance": 0.28284271247458787
+    },
+    {
+      "a": "V03_REAR_EXTERNAL_U_STRAP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "distance": 957.2
+    },
+    {
+      "a": "V03_REAR_EXTERNAL_U_STRAP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "distance": 957.2
+    },
+    {
+      "a": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "distance": 604.4
+    },
+    {
+      "a": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "distance": 597.7619927696976
+    },
+    {
+      "a": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "distance": 597.7619927696976
+    },
+    {
+      "a": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "distance": 0.19999999999997797
+    },
+    {
+      "a": "V03_LEFT_DECK_CORNER_STRAP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "distance": 590.4000000000001
+    }
+  ],
+  "errors": [],
+  "source": "C:\\Users\\bobri\\NX_Rollback_Backup_20261023_035742\\NX_Automation\\Monocoque_EDU_v04.prt",
+  "units": "1",
+  "note": "Zero minimum distance does not distinguish contact from overlap. Model not saved."
+}
