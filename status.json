@@ -1,7 +1,29 @@
 {
   "task_id": "20261023175400_preview_jpeg",
-  "state": "running",
-  "result": {},
+  "state": "done",
+  "result": {
+    "task_id": "20261023175400_preview_jpeg",
+    "ok": true,
+    "artifacts": [
+      "MONOCOQUE_PREVIEW.jpg",
+      "PREVIEW_REPORT.txt"
+    ],
+    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\d959e080dac912547dcef81c",
+    "remote_artifacts": [
+      {
+        "name": "MONOCOQUE_PREVIEW.jpg",
+        "repository_path": "results/d959e080dac912547dcef81c/MONOCOQUE_PREVIEW.jpg",
+        "bytes": 204952,
+        "sha256": "9847818c41fbb3fae6a5d095b7fd944c922aa5f14cd5d1edbfc94b83aed2ebc6"
+      },
+      {
+        "name": "PREVIEW_REPORT.txt",
+        "repository_path": "results/d959e080dac912547dcef81c/PREVIEW_REPORT.txt",
+        "bytes": 183,
+        "sha256": "4a4be3f07985c8edb8a494d91a5edd8f9d0e145f4ff21580ffda9d98b110f130"
+      }
+    ]
+  },
   "error": "",
-  "updated_at": "2026-10-23T15:02:08.808577+00:00"
+  "updated_at": "2026-10-23T15:03:04.273639+00:00"
 }
