@@ -1,7 +1,7 @@
 {
   "task_id": "20261023100900_queue_test",
-  "state": "queued",
+  "state": "running",
   "result": {},
   "error": "",
-  "updated_at": "2026-10-23T07:11:00.686488+00:00"
+  "updated_at": "2026-10-23T07:11:01.633913+00:00"
 }
