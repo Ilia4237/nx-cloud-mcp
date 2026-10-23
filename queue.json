@@ -1,1 +1,1 @@
-{"task_id":"20261023184500_geometry_distances","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/geometry_distances.py","sha256":"6237554a5e82624c318b2c6146f756fe62208d79e214be8297ab40627d2ea506"}}
+{"task_id":"20261023184800_interference_audit","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/interference_audit.py","sha256":"f75b56e0777dae50396abf4bdf3fab1e2d2b4006bd4a8c5cb8823cf0fed63f30"}}
