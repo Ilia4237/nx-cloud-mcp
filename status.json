@@ -1,7 +1,22 @@
 {
   "task_id": "20261023184300_geometry_display",
-  "state": "running",
-  "result": {},
+  "state": "done",
+  "result": {
+    "task_id": "20261023184300_geometry_display",
+    "ok": true,
+    "artifacts": [
+      "GEOMETRY_REPORT.txt"
+    ],
+    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\efc9f62745c37639c0089924",
+    "remote_artifacts": [
+      {
+        "name": "GEOMETRY_REPORT.txt",
+        "repository_path": "results/efc9f62745c37639c0089924/GEOMETRY_REPORT.txt",
+        "bytes": 36651,
+        "sha256": "397b1ecdbac110a931fa9c5920ba8901ee7265ecfe4b587326647db5846972d0"
+      }
+    ]
+  },
   "error": "",
-  "updated_at": "2026-10-23T15:44:11.113134+00:00"
+  "updated_at": "2026-10-23T15:44:34.429018+00:00"
 }
