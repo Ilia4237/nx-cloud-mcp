@@ -1,7 +1,12 @@
 {
   "task_id": "20261023102000_nx_smoke_test",
-  "state": "running",
-  "result": {},
+  "state": "done",
+  "result": {
+    "task_id": "20261023102000_nx_smoke_test",
+    "ok": true,
+    "artifacts": [],
+    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\40da5d4525e2c674664698a9"
+  },
   "error": "",
-  "updated_at": "2026-10-23T07:22:08.974826+00:00"
+  "updated_at": "2026-10-23T07:23:00.315024+00:00"
 }
