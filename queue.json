@@ -1,12 +1,12 @@
 {
-  "task_id": "20261023102900_create_plate",
+  "task_id": "20261023104300_monocoque_v01",
   "action": "run_job",
   "parameters": {
     "application": "nx",
     "mode": "batch",
-    "script_path": "jobs/nx_create_plate.py",
-    "sha256": "f1d26304b004807888298cc7918019fc237b4f813cd8011e7e2e88989064797d"
+    "script_path": "jobs/nx_monocoque_v01.py",
+    "sha256": "3b8292d64bfddbcb32867b3b73d1a3dea394abd36510659e55fd78f90ee36dfa"
   },
-  "created_at": "2026-10-23T07:30:55.507761+00:00",
+  "created_at": "2026-10-23T07:44:36.291884+00:00",
   "status": "pending"
 }
