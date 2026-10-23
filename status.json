@@ -1,14 +1,7 @@
 {
-  "task_id": "20261023124400_monocoque_preview_setdisplay_fix",
-  "state": "failed",
-  "result": {
-    "task_id": "20261023124400_monocoque_preview_setdisplay_fix",
-    "ok": false,
-    "error": "Traceback (most recent call last):\n  File \"C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\e50f708336ec77be332a2915\\runner.py\", line 9, in <module>\n    runpy.run_path(str(root/'payload.py'),run_name='__main__')\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 289, in run_path\n    return _run_module_code(code, init_globals, run_name,\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 96, in _run_module_code\n    _run_code(code, mod_globals, init_globals,\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\e50f708336ec77be332a2915\\payload.py\", line 40, in <module>\n    ufs.Disp.CreateImage(str(png_path), NXOpen.UF.UFDisp.ImageFormat.Png, NXOpen.UF.UFDisp.BackgroundColor.White)\nAttributeError: module 'NXOpen.UF' has no attribute 'UFDisp'\n",
-    "artifacts": [],
-    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\e50f708336ec77be332a2915",
-    "remote_artifacts": []
-  },
-  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\e50f708336ec77be332a2915\\runner.py\", line 9, in <module>\n    runpy.run_path(str(root/'payload.py'),run_name='__main__')\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 289, in run_path\n    return _run_module_code(code, init_globals, run_name,\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 96, in _run_module_code\n    _run_code(code, mod_globals, init_globals,\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\e50f708336ec77be332a2915\\payload.py\", line 40, in <module>\n    ufs.Disp.CreateImage(str(png_path), NXOpen.UF.UFDisp.ImageFormat.Png, NXOpen.UF.UFDisp.BackgroundColor.White)\nAttributeError: module 'NXOpen.UF' has no attribute 'UFDisp'\n",
-  "updated_at": "2026-10-23T09:45:10.844443+00:00"
+  "task_id": "20261023125000_monocoque_preview_enum_fix",
+  "state": "running",
+  "result": {},
+  "error": "",
+  "updated_at": "2026-10-23T09:52:53.087203+00:00"
 }
