@@ -1,0 +1,11 @@
+NX_PREVIEW_FAILED
+Part: C:\Users\bobri\NX_Rollback_Backup_20261023_035742\NX_Automation\Monocoque_EDU_v04.prt
+No part was modified or saved.
+orient ViewCanned: No overload matches these arguments. The arguments passed are... 
+(NXOpen.ViewCannedMemberType).
+CaptureMethod=CaptureMethod error=None
+File=File error=None
+ImageFile=ImageFile error=None
+Format=Format error=None
+ImageFormat=None error=ImageFormat: AttributeError: 'NXOpen.Gateway.ImageCaptureBuilder' object attribute 'ImageFormat' is read-only
+commit=None
