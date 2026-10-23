@@ -2,6 +2,7 @@ import os
 from pathlib import Path
 import NXOpen
 import NXOpen.UF
+import NXOpen.UF.UFDisp
 
 out_dir = Path(os.environ["SIEMENS_JOB_DIR"]).resolve()
 part_path = Path(r"C:\Users\bobri\NX_Rollback_Backup_20261023_035742\NX_Automation\Monocoque_EDU_v04.prt")
@@ -36,12 +37,12 @@ def first_valid(options):
     return None
 
 png_format = first_valid([
-    resolve(ufs, "Disp", "ImageFormat", "Png"),
     resolve(NXOpen, "UF", "UFDisp", "ImageFormat", "Png"),
+    resolve(ufs, "Disp", "ImageFormat", "Png"),
 ])
 background = first_valid([
-    resolve(ufs, "Disp", "BackgroundColor", "White"),
     resolve(NXOpen, "UF", "UFDisp", "BackgroundColor", "White"),
+    resolve(ufs, "Disp", "BackgroundColor", "White"),
 ])
 if png_format is None or background is None:
     raise RuntimeError(f"Unable to resolve NX image enums: format={png_format!r}, background={background!r}")
