@@ -1,22 +1,7 @@
 {
-  "task_id": "20261023201500_assign_v12_core_v3_set_props",
-  "state": "done",
-  "result": {
-    "task_id": "20261023201500_assign_v12_core_v3_set_props",
-    "ok": true,
-    "artifacts": [
-      "V12_CORE_V3_SET_PROPS_REPORT.txt"
-    ],
-    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\218455dcea2815040f6793e6",
-    "remote_artifacts": [
-      {
-        "name": "V12_CORE_V3_SET_PROPS_REPORT.txt",
-        "repository_path": "results/218455dcea2815040f6793e6/V12_CORE_V3_SET_PROPS_REPORT.txt",
-        "bytes": 1980,
-        "sha256": "1d79b26a7ed560c048e5adc5aa4a49b3ce70e0c59aa4138aa7c538f62a6e42ff"
-      }
-    ]
-  },
+  "task_id": "20261023201700_assign_v13_core_prop_names",
+  "state": "running",
+  "result": {},
   "error": "",
-  "updated_at": "2026-10-23T17:17:28.634212+00:00"
+  "updated_at": "2026-10-23T17:19:10.379912+00:00"
 }
