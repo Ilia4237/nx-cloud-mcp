@@ -1,11 +1,11 @@
 {
-  "task_id": "20261023152900_monocoque_preview_shademethod",
+  "task_id": "20261023174400_shade_method_diagnostic",
   "status": "pending",
   "action": "run_job",
   "parameters": {
     "application": "nx",
     "mode": "batch",
-    "script_path": "jobs/nx_preview.py",
-    "sha256": "7ca6fad23d6d03e032d8d2c31637d3d29ce3c0acb91a6c3e451363d8fabf762e"
+    "script_path": "jobs/nx_shade_diagnostic.py",
+    "sha256": "ca95d181116aa4dff8a2842d3f7495f8005f3cb7bf508aeeebd2fdad981fae88"
   }
 }
