@@ -1,1 +1,1 @@
-{"task_id":"20261023184300_geometry_display","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/geometry_display.py","sha256":"1dc389766e6f5761be7aabb79cfc2b88fd54801fe169c111b372a0ddec39880d"}}
+{"task_id":"20261023184500_geometry_distances","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/geometry_distances.py","sha256":"6237554a5e82624c318b2c6146f756fe62208d79e214be8297ab40627d2ea506"}}
