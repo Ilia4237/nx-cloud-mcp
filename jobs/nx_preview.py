@@ -16,15 +16,12 @@ session = NXOpen.Session.GetSession()
 if session is None:
     raise RuntimeError("NX session unavailable")
 
-def set_first(obj, names, value):
-    errors = []
-    for name in names:
-        try:
-            setattr(obj, name, value)
-            return name, None
-        except Exception as exc:
-            errors.append(f"{name}: {type(exc).__name__}: {exc}")
-    return None, "; ".join(errors)
+def safe_get(obj, name):
+    try:
+        value = getattr(obj, name)
+        return f"{type(value).__name__}: {value!r}"
+    except Exception as exc:
+        return f"ERROR {type(exc).__name__}: {exc}"
 
 opened = session.Parts.Open(str(part_path))
 part, load_status = opened if isinstance(opened, tuple) else (opened, None)
@@ -38,42 +35,27 @@ finally:
 
 diagnostics = []
 try:
-    view = part.ModelingViews.WorkView
-    for orientation in [
-        getattr(NXOpen, "ViewCanned", None),
-        getattr(NXOpen, "View", None),
-    ]:
-        canned = getattr(orientation, "Isometric", None) if orientation is not None else None
-        if canned is not None:
-            try:
-                view.Orient(canned)
-                diagnostics.append(f"orientation={orientation.__name__}")
-                break
-            except Exception as exc:
-                diagnostics.append(f"orient {orientation.__name__}: {exc}")
-    try:
-        view.Fit()
-    except Exception as exc:
-        diagnostics.append(f"fit: {exc}")
-
     builder = part.ImageCaptureManager.CreateImageCaptureBuilder()
-    png_format = NXOpen.Gateway.ImageCaptureBuilder.ImageFormat.Png
-    graphics_area = NXOpen.Gateway.ImageCaptureBuilder.CaptureMethodType.GraphicsArea
-    for prop, value in [
-        ("CaptureMethod", graphics_area),
-        ("File", str(png_path)),
-        ("ImageFile", str(png_path)),
-        ("Format", png_format),
-        ("ImageFormat", png_format),
-    ]:
-        name, error = set_first(builder, [prop], value)
-        diagnostics.append(f"{prop}={name} error={error}")
+    builder.CaptureMethod = NXOpen.Gateway.ImageCaptureBuilder.CaptureMethodType.GraphicsArea
+    builder.File = str(png_path)
+    builder.ImageFile = str(png_path)
+    builder.Format = NXOpen.Gateway.ImageCaptureBuilder.ImageFormat.Png
+    for name in ["CaptureMethod", "File", "ImageFile", "Format", "ImageFormat", "ImageSize", "Size"]:
+        diagnostics.append(f"before {name}={safe_get(builder, name)}")
     commit_error = None
     try:
         builder.Commit()
     except Exception as exc:
         commit_error = f"{type(exc).__name__}: {exc}"
     diagnostics.append(f"commit={commit_error}")
+    for name in ["CaptureMethod", "File", "ImageFile", "Format", "ImageFormat", "ImageSize", "Size"]:
+        diagnostics.append(f"after {name}={safe_get(builder, name)}")
+    show_error = None
+    try:
+        builder.ShowResults()
+    except Exception as exc:
+        show_error = f"{type(exc).__name__}: {exc}"
+    diagnostics.append(f"show_results={show_error}")
     try:
         builder.Destroy()
     except Exception:
