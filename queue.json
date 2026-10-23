@@ -1,1 +1,1 @@
-{"task_id":"20261023185800_build_v06_materials_fixed","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/build_v06_materials_fixed.py","sha256":"58d329fc536930d9761e05e29fd47707fef7a6b13b7df1c21604f5e535897694"}}
+{"task_id":"20261023191900_v06_material_diag","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/v06_material_diagnostic.py","sha256":"c719868b275cbb8b80b1a81d1e831a1504dd0ae2cc350454ee112be175071640"}}
