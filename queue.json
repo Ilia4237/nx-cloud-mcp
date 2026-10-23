@@ -1,1 +1,1 @@
-{"task_id":"20261023185100_build_v05","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/build_v05.py","sha256":"c593f26c3de1f6e4b93f031e14580b2dadf817814e47f9d3350503ffaeffb1e2"}}
+{"task_id":"20261023185400_v05_material_inventory","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/v05_material_inventory.py","sha256":"a48170e27532c40d8f5031b220f8ba913e22a3872469efc3230f35c0e8c5abd2"}}
