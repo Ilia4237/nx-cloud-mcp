@@ -1,13 +1,7 @@
 {
-  "task_id": "20261023181800_model_audit",
-  "state": "done",
-  "result": {
-    "task_id": "20261023181800_model_audit",
-    "ok": true,
-    "artifacts": [],
-    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\99db38b6333b9758eb4cfee9",
-    "remote_artifacts": []
-  },
+  "task_id": "20261023182600_recover_model_audit",
+  "state": "running",
+  "result": {},
   "error": "",
-  "updated_at": "2026-10-23T15:21:31.727146+00:00"
+  "updated_at": "2026-10-23T15:27:25.935107+00:00"
 }
