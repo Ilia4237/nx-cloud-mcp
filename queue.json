@@ -1,1 +1,1 @@
-{"task_id":"20261023202000_assign_v14_core_final_props","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/assign_v14_core_final_props.py","sha256":"423bcae2d4e92add210a018cdb586dba01e01027357b148141703540e20c48cc"}}
+{"task_id":"20261023202200_audit_v15_laminate","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/audit_v15_laminate.py","sha256":"e1fe09382d8b7a95b857273aa7e9fc510e0b6347adf0732c20bd147f0784fa48"}}
