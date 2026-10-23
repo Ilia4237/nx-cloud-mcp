@@ -1,0 +1,75 @@
+{
+  "bodies": [
+    {
+      "name": "TUB_U__OUTER_CFRP",
+      "error": "'NXOpen.Body' object has no attribute 'GetBoundingBox'"
+    },
+    {
+      "name": "TUB_U__CORE_EQUIVALENT",
+      "error": "'NXOpen.Body' object has no attribute 'GetBoundingBox'"
+    },
+    {
+      "name": "TUB_U__INNER_CFRP",
+      "error": "'NXOpen.Body' object has no attribute 'GetBoundingBox'"
+    },
+    {
+      "name": "FRONT_BULKHEAD__OUTER_CFRP",
+      "error": "'NXOpen.Body' object has no attribute 'GetBoundingBox'"
+    },
+    {
+      "name": "REAR_BULKHEAD__OUTER_CFRP",
+      "error": "'NXOpen.Body' object has no attribute 'GetBoundingBox'"
+    },
+    {
+      "name": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "error": "'NXOpen.Body' object has no attribute 'GetBoundingBox'"
+    },
+    {
+      "name": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "error": "'NXOpen.Body' object has no attribute 'GetBoundingBox'"
+    },
+    {
+      "name": "FRONT_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.Body' object has no attribute 'GetBoundingBox'"
+    },
+    {
+      "name": "REAR_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.Body' object has no attribute 'GetBoundingBox'"
+    },
+    {
+      "name": "FRONT_DECK__OUTER_CFRP",
+      "error": "'NXOpen.Body' object has no attribute 'GetBoundingBox'"
+    },
+    {
+      "name": "FRONT_DECK__CORE_EQUIVALENT",
+      "error": "'NXOpen.Body' object has no attribute 'GetBoundingBox'"
+    },
+    {
+      "name": "FRONT_DECK__INNER_CFRP",
+      "error": "'NXOpen.Body' object has no attribute 'GetBoundingBox'"
+    },
+    {
+      "name": "V05_FRONT_CONTINUOUS_REINFORCEMENT",
+      "error": "'NXOpen.Body' object has no attribute 'GetBoundingBox'"
+    },
+    {
+      "name": "V03_REAR_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.Body' object has no attribute 'GetBoundingBox'"
+    },
+    {
+      "name": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.Body' object has no attribute 'GetBoundingBox'"
+    },
+    {
+      "name": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.Body' object has no attribute 'GetBoundingBox'"
+    }
+  ],
+  "materials": [
+    "EDU_CFRP_QUASI_ISO",
+    "EDU_AL_HONEYCOMB_EQUIV",
+    "EDU_AL_HONEYCOMB_EQUIV_V2",
+    "EDU_AL_HONEYCOMB_EQUIV_V3"
+  ],
+  "errors": []
+}
