@@ -1,1 +1,1 @@
-{"task_id":"20261023181800_model_audit","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/model_audit.py","sha256":"62a057fa54d0e0cd44fd12d0bf072c8250f942a14206cc96e9b996ec1dc826de"}}
+{"task_id":"20261023182600_recover_model_audit","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/recover_model_audit.py","sha256":"7a3b1302530b1b584907e7f72a3b83e3767b19c028ceb4fa414388005be778fd"}}
