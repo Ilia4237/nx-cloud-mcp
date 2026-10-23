@@ -1,7 +1,10 @@
 {
   "task_id": "20261023152900_monocoque_preview_shademethod",
-  "state": "running",
-  "result": {},
-  "error": "",
-  "updated_at": "2026-10-23T12:30:51.798375+00:00"
+  "state": "failed",
+  "result": {
+    "ok": false,
+    "error": "NX returned 3221226356 without result.json. See C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\885ca76825eea9c9be6dd031\\process.log"
+  },
+  "error": "NX returned 3221226356 without result.json. See C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\885ca76825eea9c9be6dd031\\process.log",
+  "updated_at": "2026-10-23T12:31:23.147472+00:00"
 }
