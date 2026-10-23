@@ -1,7 +1,23 @@
 {
   "task_id": "20261023193100_v06_material_diag_fixed",
-  "state": "running",
-  "result": {},
+  "state": "done",
+  "result": {
+    "task_id": "20261023193100_v06_material_diag_fixed",
+    "ok": true,
+    "artifacts": [
+      "Monocoque_EDU_v06_materials.prt",
+      "V06_MATERIAL_DIAG.txt"
+    ],
+    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\abdb0f5f42bd5f9d2cc3e356",
+    "remote_artifacts": [
+      {
+        "name": "V06_MATERIAL_DIAG.txt",
+        "repository_path": "results/abdb0f5f42bd5f9d2cc3e356/V06_MATERIAL_DIAG.txt",
+        "bytes": 7036,
+        "sha256": "d787b6e3f4bfecaa2643649eb6b09d7cb648dd706e74de2082234487ef88fe09"
+      }
+    ]
+  },
   "error": "",
-  "updated_at": "2026-10-23T16:33:42.081445+00:00"
+  "updated_at": "2026-10-23T16:34:06.062232+00:00"
 }
