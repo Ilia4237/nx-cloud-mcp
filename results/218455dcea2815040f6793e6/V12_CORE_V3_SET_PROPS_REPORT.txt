@@ -1,0 +1,53 @@
+{
+  "results": {
+    "MassDensity": {
+      "method": "SetDoublePropertyValue",
+      "error": null
+    },
+    "YoungsModulus1": {
+      "method": null,
+      "error": "SetScalarFieldPropertyValue: Second parameter is invalid. Expecting NXOpen.Fields.FieldExpression type, found float."
+    },
+    "YoungsModulus2": {
+      "method": "SetDoublePropertyValue",
+      "error": null
+    },
+    "YoungsModulus3": {
+      "method": "SetDoublePropertyValue",
+      "error": null
+    },
+    "ShearModulus12": {
+      "method": null,
+      "error": "SetScalarFieldPropertyValue: Second parameter is invalid. Expecting NXOpen.Fields.FieldExpression type, found float."
+    },
+    "ShearModulus13": {
+      "method": null,
+      "error": "SetScalarFieldPropertyValue: Second parameter is invalid. Expecting NXOpen.Fields.FieldExpression type, found float."
+    },
+    "ShearModulus23": {
+      "method": null,
+      "error": "SetScalarFieldPropertyValue: Second parameter is invalid. Expecting NXOpen.Fields.FieldExpression type, found float."
+    },
+    "PoissonsRatio12": {
+      "method": null,
+      "error": "SetScalarFieldPropertyValue: Second parameter is invalid. Expecting NXOpen.Fields.FieldExpression type, found float."
+    },
+    "PoissonsRatio13": {
+      "method": null,
+      "error": "SetScalarFieldPropertyValue: Second parameter is invalid. Expecting NXOpen.Fields.FieldExpression type, found float."
+    },
+    "PoissonsRatio23": {
+      "method": null,
+      "error": "SetScalarFieldPropertyValue: Second parameter is invalid. Expecting NXOpen.Fields.FieldExpression type, found float."
+    }
+  },
+  "errors": [],
+  "saved": true,
+  "assigned": [
+    "TUB_U__CORE_EQUIVALENT",
+    "FRONT_BULKHEAD__CORE_EQUIVALENT",
+    "REAR_BULKHEAD__CORE_EQUIVALENT",
+    "FRONT_DECK__CORE_EQUIVALENT"
+  ],
+  "output": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\abdb0f5f42bd5f9d2cc3e356\\Monocoque_EDU_v06_materials.prt"
+}
