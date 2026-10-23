@@ -1,22 +1,7 @@
 {
-  "task_id": "20261023202800_export_v18_screenshots",
-  "state": "done",
-  "result": {
-    "task_id": "20261023202800_export_v18_screenshots",
-    "ok": true,
-    "artifacts": [
-      "V18_SCREENSHOTS_REPORT.txt"
-    ],
-    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\6935af6b679514786f9deba4",
-    "remote_artifacts": [
-      {
-        "name": "V18_SCREENSHOTS_REPORT.txt",
-        "repository_path": "results/6935af6b679514786f9deba4/V18_SCREENSHOTS_REPORT.txt",
-        "bytes": 483,
-        "sha256": "8be4e9ec58af12ff5569efd4c8d1c355a7691f1b3e0354d1342693a453b858bd"
-      }
-    ]
-  },
+  "task_id": "20261023202900_export_v19_screenshot_fixed",
+  "state": "running",
+  "result": {},
   "error": "",
-  "updated_at": "2026-10-23T17:29:29.147633+00:00"
+  "updated_at": "2026-10-23T17:31:16.929397+00:00"
 }
