@@ -1,1 +1,1 @@
-{"task_id":"20261023183400_geometry_audit_fixed","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/geometry_audit_fixed.py","sha256":"10564058c242e8315e84ef63a177546dd2116ea85b0aa7f7c9b5912b71e3cbae"}}
+{"task_id":"20261023183600_geometry_audit_wcs","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/geometry_audit_wcs.py","sha256":"8ab827321c3bd66ee1b03ba3e28157e4e353250d08f5fe5641472ddbc1945f36"}}
