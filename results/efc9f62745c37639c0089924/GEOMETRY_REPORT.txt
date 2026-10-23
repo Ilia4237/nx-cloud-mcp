@@ -1,0 +1,1333 @@
+{
+  "bodies": [
+    {
+      "name": "TUB_U__OUTER_CFRP",
+      "solid": true,
+      "corner": [
+        22.8,
+        -325.0,
+        0.0
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        1604.4,
+        650.0,
+        450.0
+      ]
+    },
+    {
+      "name": "TUB_U__CORE_EQUIVALENT",
+      "solid": true,
+      "corner": [
+        22.8,
+        -323.6000000000001,
+        1.3999999999999568
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        1604.4,
+        647.2000000000002,
+        448.6000000000001
+      ]
+    },
+    {
+      "name": "TUB_U__INNER_CFRP",
+      "solid": true,
+      "corner": [
+        22.8,
+        -303.4,
+        21.60000000000001
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        1604.4,
+        606.8,
+        428.4
+      ]
+    },
+    {
+      "name": "FRONT_BULKHEAD__OUTER_CFRP",
+      "solid": true,
+      "corner": [
+        0.0,
+        -325.0,
+        0.0
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        1.2,
+        650.0,
+        472.8
+      ]
+    },
+    {
+      "name": "REAR_BULKHEAD__OUTER_CFRP",
+      "solid": true,
+      "corner": [
+        1648.8,
+        -325.0,
+        0.0
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        1.2000000000000899,
+        650.0,
+        472.8
+      ]
+    },
+    {
+      "name": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "solid": true,
+      "corner": [
+        1.4,
+        -325.0,
+        0.0
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        20.0,
+        650.0,
+        472.8
+      ]
+    },
+    {
+      "name": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "solid": true,
+      "corner": [
+        1628.6000000000001,
+        -325.0,
+        0.0
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        20.000000000000018,
+        650.0,
+        472.8
+      ]
+    },
+    {
+      "name": "FRONT_BULKHEAD__INNER_CFRP",
+      "solid": true,
+      "corner": [
+        21.6,
+        -325.0,
+        0.0
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        1.1999999999999997,
+        650.0,
+        472.8
+      ]
+    },
+    {
+      "name": "REAR_BULKHEAD__INNER_CFRP",
+      "solid": true,
+      "corner": [
+        1627.2,
+        -325.0,
+        0.0
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        1.2000000000000899,
+        650.0,
+        472.8
+      ]
+    },
+    {
+      "name": "FRONT_DECK__OUTER_CFRP",
+      "solid": true,
+      "corner": [
+        22.8,
+        -325.0,
+        471.6
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        627.2,
+        650.0,
+        1.1999999999999789
+      ]
+    },
+    {
+      "name": "FRONT_DECK__CORE_EQUIVALENT",
+      "solid": true,
+      "corner": [
+        22.8,
+        -325.0,
+        451.40000000000003
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        627.2,
+        650.0,
+        20.000000000000018
+      ]
+    },
+    {
+      "name": "FRONT_DECK__INNER_CFRP",
+      "solid": true,
+      "corner": [
+        22.8,
+        -325.0,
+        450.0
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        627.2,
+        650.0,
+        1.1999999999999789
+      ]
+    },
+    {
+      "name": "V03_FRONT_EXTERNAL_U_STRAP",
+      "solid": true,
+      "corner": [
+        2.8000000000000007,
+        -327.2,
+        -2.1999999999999797
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        40.0,
+        654.4,
+        452.2
+      ]
+    },
+    {
+      "name": "V03_REAR_EXTERNAL_U_STRAP",
+      "solid": true,
+      "corner": [
+        1607.2000000000003,
+        -327.2,
+        -2.1999999999999797
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        40.000000000000036,
+        654.4,
+        452.2
+      ]
+    },
+    {
+      "name": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "solid": true,
+      "corner": [
+        650.0,
+        302.2,
+        450.2
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        977.2000000000002,
+        22.800000000000043,
+        2.0000000000000018
+      ]
+    },
+    {
+      "name": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "solid": true,
+      "corner": [
+        650.0,
+        -325.0,
+        450.2
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        977.2000000000002,
+        22.800000000000043,
+        2.0000000000000018
+      ]
+    },
+    {
+      "name": "V03_LEFT_DECK_CORNER_STRAP",
+      "solid": true,
+      "corner": [
+        22.8,
+        295.20000000000005,
+        413.00000000000006
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        627.2,
+        31.99999999999997,
+        62.0
+      ]
+    },
+    {
+      "name": "V03_RIGHT_DECK_CORNER_STRAP",
+      "solid": true,
+      "corner": [
+        22.8,
+        -327.2,
+        413.00000000000006
+      ],
+      "directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lengths": [
+        627.2,
+        31.99999999999997,
+        62.0
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "TUB_U__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "TUB_U__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "FRONT_BULKHEAD__OUTER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "REAR_BULKHEAD__OUTER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "FRONT_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "TUB_U__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "FRONT_BULKHEAD__OUTER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "REAR_BULKHEAD__OUTER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "FRONT_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "FRONT_BULKHEAD__OUTER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "REAR_BULKHEAD__OUTER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "FRONT_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "REAR_BULKHEAD__OUTER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__OUTER_CFRP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__OUTER_CFRP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "FRONT_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "FRONT_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__OUTER_CFRP",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__OUTER_CFRP",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__OUTER_CFRP",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__OUTER_CFRP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__OUTER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__OUTER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__OUTER_CFRP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__OUTER_CFRP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__CORE_EQUIVALENT",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__CORE_EQUIVALENT",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__CORE_EQUIVALENT",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__CORE_EQUIVALENT",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__CORE_EQUIVALENT",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__CORE_EQUIVALENT",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__INNER_CFRP",
+      "b": "V03_FRONT_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__INNER_CFRP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__INNER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__INNER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__INNER_CFRP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "FRONT_DECK__INNER_CFRP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "V03_FRONT_EXTERNAL_U_STRAP",
+      "b": "V03_REAR_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "V03_FRONT_EXTERNAL_U_STRAP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "V03_FRONT_EXTERNAL_U_STRAP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "V03_FRONT_EXTERNAL_U_STRAP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "V03_FRONT_EXTERNAL_U_STRAP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "V03_REAR_EXTERNAL_U_STRAP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "V03_REAR_EXTERNAL_U_STRAP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "V03_REAR_EXTERNAL_U_STRAP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "V03_REAR_EXTERNAL_U_STRAP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    },
+    {
+      "a": "V03_LEFT_DECK_CORNER_STRAP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "error": "'NXOpen.UF.ModlGeneral' object has no attribute 'AskMinimumDist'"
+    }
+  ],
+  "errors": [],
+  "source": "C:\\Users\\bobri\\NX_Rollback_Backup_20261023_035742\\NX_Automation\\Monocoque_EDU_v04.prt",
+  "units": "1",
+  "note": "Zero minimum distance does not distinguish contact from overlap. Model not saved."
+}
