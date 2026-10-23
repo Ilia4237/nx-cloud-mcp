@@ -1,0 +1,8 @@
+{
+  "saved": false,
+  "assignments": [],
+  "errors": [
+    "No object found with this name"
+  ],
+  "source": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\4e89fed5d68b203d98c25338\\Monocoque_EDU_v05_unified_reinforcement.prt"
+}
