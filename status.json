@@ -1,22 +1,7 @@
 {
-  "task_id": "20261023182600_recover_model_audit",
-  "state": "done",
-  "result": {
-    "task_id": "20261023182600_recover_model_audit",
-    "ok": true,
-    "artifacts": [
-      "MONOCOQUE_MODEL_AUDIT.txt"
-    ],
-    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\1342854d013add9f181ee4b1",
-    "remote_artifacts": [
-      {
-        "name": "MONOCOQUE_MODEL_AUDIT.txt",
-        "repository_path": "results/1342854d013add9f181ee4b1/MONOCOQUE_MODEL_AUDIT.txt",
-        "bytes": 5413,
-        "sha256": "0b1dcfa9a85b53a719791760893d06463550b79ab8007a9d94ed658b55038a6c"
-      }
-    ]
-  },
+  "task_id": "20261023183100_geometry_audit",
+  "state": "running",
+  "result": {},
   "error": "",
-  "updated_at": "2026-10-23T15:27:43.922319+00:00"
+  "updated_at": "2026-10-23T15:33:05.423732+00:00"
 }
