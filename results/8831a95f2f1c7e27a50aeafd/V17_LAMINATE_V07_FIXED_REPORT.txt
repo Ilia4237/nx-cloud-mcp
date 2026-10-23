@@ -1,0 +1,104 @@
+{
+  "audit": [
+    {
+      "name": "TUB_U__OUTER_CFRP",
+      "face_count": 10,
+      "audit_error": "'NXOpen.Face' object has no attribute 'Area'"
+    },
+    {
+      "name": "TUB_U__CORE_EQUIVALENT",
+      "face_count": 10,
+      "audit_error": "'NXOpen.Face' object has no attribute 'Area'"
+    },
+    {
+      "name": "TUB_U__INNER_CFRP",
+      "face_count": 10,
+      "audit_error": "'NXOpen.Face' object has no attribute 'Area'"
+    },
+    {
+      "name": "FRONT_BULKHEAD__OUTER_CFRP",
+      "face_count": 6,
+      "audit_error": "'NXOpen.Face' object has no attribute 'Area'"
+    },
+    {
+      "name": "REAR_BULKHEAD__OUTER_CFRP",
+      "face_count": 6,
+      "audit_error": "'NXOpen.Face' object has no attribute 'Area'"
+    },
+    {
+      "name": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "face_count": 6,
+      "audit_error": "'NXOpen.Face' object has no attribute 'Area'"
+    },
+    {
+      "name": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "face_count": 6,
+      "audit_error": "'NXOpen.Face' object has no attribute 'Area'"
+    },
+    {
+      "name": "FRONT_BULKHEAD__INNER_CFRP",
+      "face_count": 6,
+      "audit_error": "'NXOpen.Face' object has no attribute 'Area'"
+    },
+    {
+      "name": "REAR_BULKHEAD__INNER_CFRP",
+      "face_count": 6,
+      "audit_error": "'NXOpen.Face' object has no attribute 'Area'"
+    },
+    {
+      "name": "FRONT_DECK__OUTER_CFRP",
+      "face_count": 6,
+      "audit_error": "'NXOpen.Face' object has no attribute 'Area'"
+    },
+    {
+      "name": "FRONT_DECK__CORE_EQUIVALENT",
+      "face_count": 6,
+      "audit_error": "'NXOpen.Face' object has no attribute 'Area'"
+    },
+    {
+      "name": "FRONT_DECK__INNER_CFRP",
+      "face_count": 6,
+      "audit_error": "'NXOpen.Face' object has no attribute 'Area'"
+    },
+    {
+      "name": "V05_FRONT_CONTINUOUS_REINFORCEMENT",
+      "face_count": 22,
+      "audit_error": "'NXOpen.Face' object has no attribute 'Area'"
+    },
+    {
+      "name": "V03_REAR_EXTERNAL_U_STRAP",
+      "face_count": 10,
+      "audit_error": "'NXOpen.Face' object has no attribute 'Area'"
+    },
+    {
+      "name": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "face_count": 6,
+      "audit_error": "'NXOpen.Face' object has no attribute 'Area'"
+    },
+    {
+      "name": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "face_count": 6,
+      "audit_error": "'NXOpen.Face' object has no attribute 'Area'"
+    }
+  ],
+  "expressions": {},
+  "layup": {
+    "skin_material": "EDU_CFRP_QUASI_ISO",
+    "core_material": "EDU_AL_HONEYCOMB_EQUIV_V3",
+    "sequence": "[0/45/-45/90]s",
+    "ply_thickness_mm": 0.25,
+    "plies_per_skin": 4,
+    "skin_thickness_mm": 1.0,
+    "symmetry": "midplane"
+  },
+  "errors": [
+    "Expression SKIN_PLY_THICKNESS: Function takes 1 arguments, 2 passed.",
+    "Expression SKIN_PLY_COUNT_PER_SIDE: Function takes 1 arguments, 2 passed.",
+    "Expression CORE_MATERIAL: Function takes 1 arguments, 2 passed.",
+    "Expression CFRP_MATERIAL: Function takes 1 arguments, 2 passed.",
+    "Expression LAYUP_SEQUENCE: Function takes 1 arguments, 2 passed.",
+    "No overload matches these arguments. The arguments passed are... \n(str, NXOpen.NXObjectAttributeTypeMemberType, str, bool)."
+  ],
+  "saved": false,
+  "output": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\abdb0f5f42bd5f9d2cc3e356\\Monocoque_EDU_v07_layup.prt"
+}
