@@ -1,0 +1,2459 @@
+{
+  "properties": [
+    {
+      "index": 0,
+      "name": "MaterialType",
+      "type": "3"
+    },
+    {
+      "index": 1,
+      "name": "AltName",
+      "type": "1"
+    },
+    {
+      "index": 2,
+      "name": "Category",
+      "type": "1"
+    },
+    {
+      "index": 3,
+      "name": "SubCategory",
+      "type": "1"
+    },
+    {
+      "index": 4,
+      "name": "Version",
+      "type": "1"
+    },
+    {
+      "index": 5,
+      "name": "Description",
+      "type": "-1"
+    },
+    {
+      "index": 6,
+      "name": "ElasticDependencyControl",
+      "type": "3"
+    },
+    {
+      "index": 7,
+      "name": "AnisotropicElasticDependencyControl",
+      "type": "3"
+    },
+    {
+      "index": 8,
+      "name": "ReferenceFrequency",
+      "type": "4"
+    },
+    {
+      "index": 9,
+      "name": "DensityControl",
+      "type": "3"
+    },
+    {
+      "index": 10,
+      "name": "MassDensity",
+      "type": "6"
+    },
+    {
+      "index": 11,
+      "name": "YoungsModulus",
+      "type": "6"
+    },
+    {
+      "index": 12,
+      "name": "YoungsModulus2",
+      "type": "6"
+    },
+    {
+      "index": 13,
+      "name": "YoungsModulus3",
+      "type": "6"
+    },
+    {
+      "index": 14,
+      "name": "CompressionYoungsModulus",
+      "type": "6"
+    },
+    {
+      "index": 15,
+      "name": "CompressionYoungsModulus2",
+      "type": "6"
+    },
+    {
+      "index": 16,
+      "name": "CompressionYoungsModulus3",
+      "type": "6"
+    },
+    {
+      "index": 17,
+      "name": "PoissonsRatioType",
+      "type": "3"
+    },
+    {
+      "index": 18,
+      "name": "PoissonsRatio",
+      "type": "6"
+    },
+    {
+      "index": 19,
+      "name": "PoissonsRatio3",
+      "type": "6"
+    },
+    {
+      "index": 20,
+      "name": "PoissonsRatio2",
+      "type": "6"
+    },
+    {
+      "index": 21,
+      "name": "ShearModulus",
+      "type": "6"
+    },
+    {
+      "index": 22,
+      "name": "ShearModulus2",
+      "type": "6"
+    },
+    {
+      "index": 23,
+      "name": "ShearModulus3",
+      "type": "6"
+    },
+    {
+      "index": 24,
+      "name": "ShearModulusFreqIndep",
+      "type": "6"
+    },
+    {
+      "index": 25,
+      "name": "LimitStressFreqIndep",
+      "type": "6"
+    },
+    {
+      "index": 26,
+      "name": "StructuralDamping",
+      "type": "6"
+    },
+    {
+      "index": 27,
+      "name": "MatlNonlinearityType",
+      "type": "3"
+    },
+    {
+      "index": 28,
+      "name": "YieldFunctionCriterion",
+      "type": "3"
+    },
+    {
+      "index": 29,
+      "name": "CompressiveTensileyieldRatio",
+      "type": "4"
+    },
+    {
+      "index": 30,
+      "name": "InitialTensilYieldStress2",
+      "type": "4"
+    },
+    {
+      "index": 31,
+      "name": "InitialTensilYieldStress3",
+      "type": "4"
+    },
+    {
+      "index": 32,
+      "name": "ShearYieldStress",
+      "type": "4"
+    },
+    {
+      "index": 33,
+      "name": "ShearYieldStress2",
+      "type": "4"
+    },
+    {
+      "index": 34,
+      "name": "ShearYieldStress3",
+      "type": "4"
+    },
+    {
+      "index": 35,
+      "name": "HardeningRule",
+      "type": "3"
+    },
+    {
+      "index": 36,
+      "name": "HillRatio11",
+      "type": "6"
+    },
+    {
+      "index": 37,
+      "name": "HillRatio22",
+      "type": "6"
+    },
+    {
+      "index": 38,
+      "name": "HillRatio33",
+      "type": "6"
+    },
+    {
+      "index": 39,
+      "name": "HillRatio12",
+      "type": "6"
+    },
+    {
+      "index": 40,
+      "name": "HillRatio23",
+      "type": "6"
+    },
+    {
+      "index": 41,
+      "name": "HillRatio13",
+      "type": "6"
+    },
+    {
+      "index": 42,
+      "name": "MixedHardeningRatio",
+      "type": "4"
+    },
+    {
+      "index": 43,
+      "name": "KinematicLaws",
+      "type": "3"
+    },
+    {
+      "index": 44,
+      "name": "NonLinearHardeningCoefficient",
+      "type": "6"
+    },
+    {
+      "index": 45,
+      "name": "StressStrainFormatType",
+      "type": "3"
+    },
+    {
+      "index": 46,
+      "name": "StressStrainDataType",
+      "type": "3"
+    },
+    {
+      "index": 47,
+      "name": "StressStrainCurveTable",
+      "type": "6"
+    },
+    {
+      "index": 48,
+      "name": "WorkHardeningSlopeH",
+      "type": "4"
+    },
+    {
+      "index": 49,
+      "name": "StressStrainCurveStrainRate",
+      "type": "6"
+    },
+    {
+      "index": 50,
+      "name": "InitialYieldPoint",
+      "type": "4"
+    },
+    {
+      "index": 51,
+      "name": "InitialFrictionAngle",
+      "type": "4"
+    },
+    {
+      "index": 52,
+      "name": "TangentModulusE",
+      "type": "4"
+    },
+    {
+      "index": 53,
+      "name": "TangentModulusETemperature",
+      "type": "6"
+    },
+    {
+      "index": 54,
+      "name": "StrainRatedependency",
+      "type": "3"
+    },
+    {
+      "index": 55,
+      "name": "StressStrainCurve2",
+      "type": "6"
+    },
+    {
+      "index": 56,
+      "name": "ExponentBValue",
+      "type": "4"
+    },
+    {
+      "index": 57,
+      "name": "StrainRateLevel",
+      "type": "4"
+    },
+    {
+      "index": 58,
+      "name": "LSDYNAPlasticfail",
+      "type": "3"
+    },
+    {
+      "index": 59,
+      "name": "LSDYNA_matusr_24_fail",
+      "type": "4"
+    },
+    {
+      "index": 60,
+      "name": "LSDYNA_fail_plastic_strain",
+      "type": "4"
+    },
+    {
+      "index": 61,
+      "name": "EPSThin",
+      "type": "4"
+    },
+    {
+      "index": 62,
+      "name": "EPSMaj",
+      "type": "4"
+    },
+    {
+      "index": 63,
+      "name": "EffectivePlasticStrainFS",
+      "type": "4"
+    },
+    {
+      "index": 64,
+      "name": "FormulationVP",
+      "type": "3"
+    },
+    {
+      "index": 65,
+      "name": "YieldSressScalingCurve",
+      "type": "6"
+    },
+    {
+      "index": 66,
+      "name": "PlasticHardeningModulus",
+      "type": "4"
+    },
+    {
+      "index": 67,
+      "name": "EffectiveFailurePlasticStrain",
+      "type": "4"
+    },
+    {
+      "index": 68,
+      "name": "LSDYNAPlasticPolymerfailEFTX",
+      "type": "3"
+    },
+    {
+      "index": 69,
+      "name": "StiffnessDampingRatioDAMP",
+      "type": "4"
+    },
+    {
+      "index": 70,
+      "name": "FilteringFactorRFAC",
+      "type": "4"
+    },
+    {
+      "index": 71,
+      "name": "FailureStrainToStrainRateCurveLCID",
+      "type": "6"
+    },
+    {
+      "index": 72,
+      "name": "FailureStrainToStrainRateCurveLCTSRF",
+      "type": "6"
+    },
+    {
+      "index": 73,
+      "name": "RTCLDamageEPS0Option",
+      "type": "3"
+    },
+    {
+      "index": 74,
+      "name": "RTCLDamageEPS0",
+      "type": "4"
+    },
+    {
+      "index": 75,
+      "name": "StressStrainCurvePlastic",
+      "type": "6"
+    },
+    {
+      "index": 76,
+      "name": "TransverseShearCompositeDamage",
+      "type": "4"
+    },
+    {
+      "index": 77,
+      "name": "EffectiveFailureStrain",
+      "type": "4"
+    },
+    {
+      "index": 78,
+      "name": "DamageInitiation",
+      "type": "4"
+    },
+    {
+      "index": 79,
+      "name": "FinalRupture",
+      "type": "4"
+    },
+    {
+      "index": 80,
+      "name": "StressStrainCurveCompression",
+      "type": "6"
+    },
+    {
+      "index": 81,
+      "name": "StressStrainCurveTraction",
+      "type": "6"
+    },
+    {
+      "index": 82,
+      "name": "PoissonsRatioPlastic",
+      "type": "6"
+    },
+    {
+      "index": 83,
+      "name": "Y0InitialStress",
+      "type": "6"
+    },
+    {
+      "index": 84,
+      "name": "IsotropicSaturatedOption",
+      "type": "2"
+    },
+    {
+      "index": 85,
+      "name": "IsotropicSaturatedSeries",
+      "type": "13"
+    },
+    {
+      "index": 86,
+      "name": "ChabocheKinematicHardening",
+      "type": "13"
+    },
+    {
+      "index": 87,
+      "name": "MechanicalPowertoHeatRatio",
+      "type": "4"
+    },
+    {
+      "index": 88,
+      "name": "Yield",
+      "type": "6"
+    },
+    {
+      "index": 89,
+      "name": "Yield2",
+      "type": "6"
+    },
+    {
+      "index": 90,
+      "name": "Yield12",
+      "type": "6"
+    },
+    {
+      "index": 91,
+      "name": "UltTensile",
+      "type": "6"
+    },
+    {
+      "index": 92,
+      "name": "UltTensile2",
+      "type": "6"
+    },
+    {
+      "index": 93,
+      "name": "UltTensile12",
+      "type": "6"
+    },
+    {
+      "index": 94,
+      "name": "AllFailureCriterion",
+      "type": "2"
+    },
+    {
+      "index": 95,
+      "name": "StrengthLimitsFailureCriterion",
+      "type": "2"
+    },
+    {
+      "index": 96,
+      "name": "StrainRatioFailureCriterion",
+      "type": "2"
+    },
+    {
+      "index": 97,
+      "name": "StressRatioFailureCriterion",
+      "type": "2"
+    },
+    {
+      "index": 98,
+      "name": "TsaiWuFailureCriterion",
+      "type": "2"
+    },
+    {
+      "index": 99,
+      "name": "RiceTraceyFailureCriterion",
+      "type": "2"
+    },
+    {
+      "index": 100,
+      "name": "MaximumTotalStrainFailureCriterion",
+      "type": "2"
+    },
+    {
+      "index": 101,
+      "name": "MaximumStressFailureCriterion",
+      "type": "2"
+    },
+    {
+      "index": 102,
+      "name": "HashinFailureCriterion",
+      "type": "2"
+    },
+    {
+      "index": 103,
+      "name": "HoffmanFailureCriterion",
+      "type": "2"
+    },
+    {
+      "index": 104,
+      "name": "TsaiHillFailureCriterion",
+      "type": "2"
+    },
+    {
+      "index": 105,
+      "name": "PuckFailureCriterion",
+      "type": "2"
+    },
+    {
+      "index": 106,
+      "name": "LaRC04FailureCriterion",
+      "type": "2"
+    },
+    {
+      "index": 107,
+      "name": "MaxStressTension",
+      "type": "6"
+    },
+    {
+      "index": 108,
+      "name": "MaxStressTension2",
+      "type": "6"
+    },
+    {
+      "index": 109,
+      "name": "MaxStressTension3",
+      "type": "6"
+    },
+    {
+      "index": 110,
+      "name": "MaxStressCompression",
+      "type": "6"
+    },
+    {
+      "index": 111,
+      "name": "MaxStressCompress2",
+      "type": "6"
+    },
+    {
+      "index": 112,
+      "name": "MaxStressCompress3",
+      "type": "6"
+    },
+    {
+      "index": 113,
+      "name": "MaxInPlaneShearStress",
+      "type": "6"
+    },
+    {
+      "index": 114,
+      "name": "ShearStress13",
+      "type": "6"
+    },
+    {
+      "index": 115,
+      "name": "ShearStress23",
+      "type": "6"
+    },
+    {
+      "index": 116,
+      "name": "NormalTensileSrength",
+      "type": "6"
+    },
+    {
+      "index": 117,
+      "name": "LongitudinalTensileStrength",
+      "type": "6"
+    },
+    {
+      "index": 118,
+      "name": "LongitudinalCompressiveStrength",
+      "type": "6"
+    },
+    {
+      "index": 119,
+      "name": "TransverseTensileStrength",
+      "type": "6"
+    },
+    {
+      "index": 120,
+      "name": "TransverseCompressiveStrength",
+      "type": "6"
+    },
+    {
+      "index": 121,
+      "name": "ShearStrengthABPlane",
+      "type": "6"
+    },
+    {
+      "index": 122,
+      "name": "LoadCurveIDLongitudinalTensileLCXT",
+      "type": "6"
+    },
+    {
+      "index": 123,
+      "name": "LoadCurveIDLongitudinalCompressiveLCXC",
+      "type": "6"
+    },
+    {
+      "index": 124,
+      "name": "LoadCurveIDTransverseTensileLCYT",
+      "type": "6"
+    },
+    {
+      "index": 125,
+      "name": "LoadCurveIDTransverseCompressiveLCYC",
+      "type": "6"
+    },
+    {
+      "index": 126,
+      "name": "LoadCurveIDShearStrengthABPlaneLCSC",
+      "type": "6"
+    },
+    {
+      "index": 127,
+      "name": "MaxStrainTension",
+      "type": "6"
+    },
+    {
+      "index": 128,
+      "name": "MaxStrainTension2",
+      "type": "6"
+    },
+    {
+      "index": 129,
+      "name": "MaxStrainTension3",
+      "type": "6"
+    },
+    {
+      "index": 130,
+      "name": "MaxStrainCompression",
+      "type": "6"
+    },
+    {
+      "index": 131,
+      "name": "MaxStrainCompression2",
+      "type": "6"
+    },
+    {
+      "index": 132,
+      "name": "MaxStrainCompression3",
+      "type": "6"
+    },
+    {
+      "index": 133,
+      "name": "MaxInPlaneShearStrain",
+      "type": "6"
+    },
+    {
+      "index": 134,
+      "name": "ShearStrain13",
+      "type": "6"
+    },
+    {
+      "index": 135,
+      "name": "ShearStrain23",
+      "type": "6"
+    },
+    {
+      "index": 136,
+      "name": "TsaiWuInteraction",
+      "type": "6"
+    },
+    {
+      "index": 137,
+      "name": "TsaiWu13",
+      "type": "6"
+    },
+    {
+      "index": 138,
+      "name": "TsaiWu23",
+      "type": "6"
+    },
+    {
+      "index": 139,
+      "name": "AxisShearStrength1",
+      "type": "6"
+    },
+    {
+      "index": 140,
+      "name": "AxisShearStrength2",
+      "type": "6"
+    },
+    {
+      "index": 141,
+      "name": "AxisShearStrength3",
+      "type": "6"
+    },
+    {
+      "index": 142,
+      "name": "InPlaneShearComponents",
+      "type": "6"
+    },
+    {
+      "index": 143,
+      "name": "ModeICrackReleaseEnergy",
+      "type": "6"
+    },
+    {
+      "index": 144,
+      "name": "ModeIICrackReleaseEnergy",
+      "type": "6"
+    },
+    {
+      "index": 145,
+      "name": "ModeIIICrackReleaseEnergy",
+      "type": "6"
+    },
+    {
+      "index": 146,
+      "name": "ThicknessTransition",
+      "type": "4"
+    },
+    {
+      "index": 147,
+      "name": "LaminateBehavior",
+      "type": "3"
+    },
+    {
+      "index": 148,
+      "name": "FractureAngle",
+      "type": "4"
+    },
+    {
+      "index": 149,
+      "name": "FrictionCoefficient",
+      "type": "4"
+    },
+    {
+      "index": 150,
+      "name": "RiceParameter",
+      "type": "4"
+    },
+    {
+      "index": 151,
+      "name": "MeanStressMagnificationFactor",
+      "type": "4"
+    },
+    {
+      "index": 152,
+      "name": "ShearStrainCoefficient",
+      "type": "4"
+    },
+    {
+      "index": 153,
+      "name": "ShapeParameter1",
+      "type": "6"
+    },
+    {
+      "index": 154,
+      "name": "ShapeParameter2",
+      "type": "6"
+    },
+    {
+      "index": 155,
+      "name": "ShapeParameter3",
+      "type": "6"
+    },
+    {
+      "index": 156,
+      "name": "ShapeParameter4",
+      "type": "6"
+    },
+    {
+      "index": 157,
+      "name": "StressLifeDataFormat",
+      "type": "3"
+    },
+    {
+      "index": 158,
+      "name": "FatigueStrengthCoeff",
+      "type": "6"
+    },
+    {
+      "index": 159,
+      "name": "FatigueStrengthCoeff2",
+      "type": "6"
+    },
+    {
+      "index": 160,
+      "name": "FatigueStrengthCoeff12",
+      "type": "6"
+    },
+    {
+      "index": 161,
+      "name": "FatigueStrengthExp",
+      "type": "6"
+    },
+    {
+      "index": 162,
+      "name": "FatigueStrengthExp2",
+      "type": "6"
+    },
+    {
+      "index": 163,
+      "name": "FatigueStrengthExp12",
+      "type": "6"
+    },
+    {
+      "index": 164,
+      "name": "StressLifeDataField2",
+      "type": "5"
+    },
+    {
+      "index": 165,
+      "name": "StrainLifeDataFormat",
+      "type": "3"
+    },
+    {
+      "index": 166,
+      "name": "FatigueDuctCoeff",
+      "type": "6"
+    },
+    {
+      "index": 167,
+      "name": "FatigueDuctCoeff2",
+      "type": "6"
+    },
+    {
+      "index": 168,
+      "name": "FatigueDuctCoeff12",
+      "type": "6"
+    },
+    {
+      "index": 169,
+      "name": "FatigueDuctExp",
+      "type": "6"
+    },
+    {
+      "index": 170,
+      "name": "FatigueDuctExp2",
+      "type": "6"
+    },
+    {
+      "index": 171,
+      "name": "FatigueDuctExp12",
+      "type": "6"
+    },
+    {
+      "index": 172,
+      "name": "StrainLifeDataField",
+      "type": "5"
+    },
+    {
+      "index": 173,
+      "name": "CyclicYieldStrength",
+      "type": "4"
+    },
+    {
+      "index": 174,
+      "name": "CyclicStrengthCoeff",
+      "type": "6"
+    },
+    {
+      "index": 175,
+      "name": "CyclicStrainHardeningExp",
+      "type": "6"
+    },
+    {
+      "index": 176,
+      "name": "DangVanFatigueLimitStrengthBending",
+      "type": "4"
+    },
+    {
+      "index": 177,
+      "name": "DangVanFatigueLimitStrengthTorsion",
+      "type": "4"
+    },
+    {
+      "index": 178,
+      "name": "PercentAreaReduction",
+      "type": "4"
+    },
+    {
+      "index": 179,
+      "name": "RefTemp",
+      "type": "4"
+    },
+    {
+      "index": 180,
+      "name": "SpecificHeatControl",
+      "type": "3"
+    },
+    {
+      "index": 181,
+      "name": "SpecificHeat",
+      "type": "6"
+    },
+    {
+      "index": 182,
+      "name": "ThermalExpansionCoefficientType",
+      "type": "3"
+    },
+    {
+      "index": 183,
+      "name": "ThermalExpansion",
+      "type": "6"
+    },
+    {
+      "index": 184,
+      "name": "ThermalExpansion2",
+      "type": "6"
+    },
+    {
+      "index": 185,
+      "name": "ThermalExpansion3",
+      "type": "6"
+    },
+    {
+      "index": 186,
+      "name": "ThermalExpansionCoefficientControl2",
+      "type": "3"
+    },
+    {
+      "index": 187,
+      "name": "ThermalConductivityControl",
+      "type": "3"
+    },
+    {
+      "index": 188,
+      "name": "TempConductivityBehaviorType",
+      "type": "3"
+    },
+    {
+      "index": 189,
+      "name": "ThermalConductivity",
+      "type": "6"
+    },
+    {
+      "index": 190,
+      "name": "ThermalConductivity2",
+      "type": "6"
+    },
+    {
+      "index": 191,
+      "name": "ThermalConductivity3",
+      "type": "6"
+    },
+    {
+      "index": 192,
+      "name": "DummyThermalConductivity1",
+      "type": "3"
+    },
+    {
+      "index": 193,
+      "name": "DummyThermalConductivity2",
+      "type": "3"
+    },
+    {
+      "index": 194,
+      "name": "DummyThermalConductivity3",
+      "type": "3"
+    },
+    {
+      "index": 195,
+      "name": "DummyThermalConductivity4",
+      "type": "3"
+    },
+    {
+      "index": 196,
+      "name": "LatentHeat",
+      "type": "6"
+    },
+    {
+      "index": 197,
+      "name": "PhaseTemp",
+      "type": "4"
+    },
+    {
+      "index": 198,
+      "name": "PhaseTempRange",
+      "type": "4"
+    },
+    {
+      "index": 199,
+      "name": "PhaseSpecificHeat",
+      "type": "6"
+    },
+    {
+      "index": 200,
+      "name": "IrScatterCoeff",
+      "type": "4"
+    },
+    {
+      "index": 201,
+      "name": "IrExtinctCoeff",
+      "type": "4"
+    },
+    {
+      "index": 202,
+      "name": "SolarScatterCoeff",
+      "type": "4"
+    },
+    {
+      "index": 203,
+      "name": "SolarExtinctCoeff",
+      "type": "4"
+    },
+    {
+      "index": 204,
+      "name": "ElectromagneticFrequency",
+      "type": "3"
+    },
+    {
+      "index": 205,
+      "name": "ElectConductivityResistivityMode",
+      "type": "3"
+    },
+    {
+      "index": 206,
+      "name": "ElectConductivityMethod",
+      "type": "3"
+    },
+    {
+      "index": 207,
+      "name": "ElectResistivityMethod",
+      "type": "3"
+    },
+    {
+      "index": 208,
+      "name": "ElecResist",
+      "type": "6"
+    },
+    {
+      "index": 209,
+      "name": "CreepFormulation",
+      "type": "3"
+    },
+    {
+      "index": 210,
+      "name": "CreepReferenceTemperature",
+      "type": "4"
+    },
+    {
+      "index": 211,
+      "name": "TempDependTermType",
+      "type": "3"
+    },
+    {
+      "index": 212,
+      "name": "CreepTemperatureDependence",
+      "type": "4"
+    },
+    {
+      "index": 213,
+      "name": "CreepTemperatureDependenceDeltaH",
+      "type": "4"
+    },
+    {
+      "index": 214,
+      "name": "CreepThreshold",
+      "type": "4"
+    },
+    {
+      "index": 215,
+      "name": "CreepThresholdVPlas",
+      "type": "4"
+    },
+    {
+      "index": 216,
+      "name": "CreepHardening",
+      "type": "3"
+    },
+    {
+      "index": 217,
+      "name": "AnisotropicType",
+      "type": "3"
+    },
+    {
+      "index": 218,
+      "name": "CreepHillRatio11",
+      "type": "6"
+    },
+    {
+      "index": 219,
+      "name": "CreepHillRatio22",
+      "type": "6"
+    },
+    {
+      "index": 220,
+      "name": "CreepHillRatio33",
+      "type": "6"
+    },
+    {
+      "index": 221,
+      "name": "CreepHillRatio12",
+      "type": "6"
+    },
+    {
+      "index": 222,
+      "name": "CreepHillRatio23",
+      "type": "6"
+    },
+    {
+      "index": 223,
+      "name": "CreepHillRatio13",
+      "type": "6"
+    },
+    {
+      "index": 224,
+      "name": "CheckUnitSystem",
+      "type": "3"
+    },
+    {
+      "index": 225,
+      "name": "ForceLengthMassUnits",
+      "type": "3"
+    },
+    {
+      "index": 226,
+      "name": "PowerLawCreepParameter_A",
+      "type": "4"
+    },
+    {
+      "index": 227,
+      "name": "PowerLawCreepParameter_n",
+      "type": "4"
+    },
+    {
+      "index": 228,
+      "name": "PowerLawCreepParameter_m",
+      "type": "4"
+    },
+    {
+      "index": 229,
+      "name": "PowerLawCreepParameter_A1",
+      "type": "6"
+    },
+    {
+      "index": 230,
+      "name": "PowerLawCreepParameter_b",
+      "type": "6"
+    },
+    {
+      "index": 231,
+      "name": "PowerLawCreepParameter_d",
+      "type": "6"
+    },
+    {
+      "index": 232,
+      "name": "KelvinMaxwellC1Function",
+      "type": "3"
+    },
+    {
+      "index": 233,
+      "name": "KelvinMaxwellCreepParameter_a",
+      "type": "4"
+    },
+    {
+      "index": 234,
+      "name": "KelvinMaxwellCreepParameter_b",
+      "type": "4"
+    },
+    {
+      "index": 235,
+      "name": "KelvinMaxwellC2Function",
+      "type": "3"
+    },
+    {
+      "index": 236,
+      "name": "KelvinMaxwellCreepParameter_c",
+      "type": "4"
+    },
+    {
+      "index": 237,
+      "name": "KelvinMaxwellCreepParameter_d",
+      "type": "4"
+    },
+    {
+      "index": 238,
+      "name": "GeneralizedBlackburnCreepParameter_x",
+      "type": "4"
+    },
+    {
+      "index": 239,
+      "name": "KelvinMaxwellC3Function",
+      "type": "3"
+    },
+    {
+      "index": 240,
+      "name": "KelvinMaxwellCreepParameter_e",
+      "type": "4"
+    },
+    {
+      "index": 241,
+      "name": "KelvinMaxwellCreepParameter_f",
+      "type": "4"
+    },
+    {
+      "index": 242,
+      "name": "KelvinMaxwellCreepParameter_g",
+      "type": "4"
+    },
+    {
+      "index": 243,
+      "name": "PrimarySpringCreepTable_Kp",
+      "type": "6"
+    },
+    {
+      "index": 244,
+      "name": "PrimaryDampingCreepTable_Cp",
+      "type": "6"
+    },
+    {
+      "index": 245,
+      "name": "SecondaryDampingCreepTable_Cs",
+      "type": "6"
+    },
+    {
+      "index": 246,
+      "name": "RateStrainFactorC1",
+      "type": "6"
+    },
+    {
+      "index": 247,
+      "name": "MainFactorC1Norton",
+      "type": "6"
+    },
+    {
+      "index": 248,
+      "name": "MainFactorC1Garafalo",
+      "type": "6"
+    },
+    {
+      "index": 249,
+      "name": "MainFactorA",
+      "type": "6"
+    },
+    {
+      "index": 250,
+      "name": "StressPowerExponentC2",
+      "type": "6"
+    },
+    {
+      "index": 251,
+      "name": "StressPowerExponentC2Garafalo",
+      "type": "6"
+    },
+    {
+      "index": 252,
+      "name": "StrainPowerExponentC3",
+      "type": "6"
+    },
+    {
+      "index": 253,
+      "name": "ExponentialFactorC4",
+      "type": "4"
+    },
+    {
+      "index": 254,
+      "name": "StressPowerExponentB",
+      "type": "6"
+    },
+    {
+      "index": 255,
+      "name": "TimePowerExponentD",
+      "type": "6"
+    },
+    {
+      "index": 256,
+      "name": "ViscoelasticDomain",
+      "type": "3"
+    },
+    {
+      "index": 257,
+      "name": "ViscoelasticType",
+      "type": "3"
+    },
+    {
+      "index": 258,
+      "name": "ViscoelasticType2",
+      "type": "3"
+    },
+    {
+      "index": 259,
+      "name": "ViscoelasticTimeDefn",
+      "type": "3"
+    },
+    {
+      "index": 260,
+      "name": "TimeErrorTolerance",
+      "type": "4"
+    },
+    {
+      "index": 261,
+      "name": "TimeNMax",
+      "type": "3"
+    },
+    {
+      "index": 262,
+      "name": "ViscoelasticTimeDefnCreepTestDataFormat",
+      "type": "3"
+    },
+    {
+      "index": 263,
+      "name": "ViscoelasticTimeDefnRelaxTestDataFormat",
+      "type": "3"
+    },
+    {
+      "index": 264,
+      "name": "TimeDomainLongTermShearCompliance",
+      "type": "4"
+    },
+    {
+      "index": 265,
+      "name": "TimeDomainLongTermBulkCompliance",
+      "type": "4"
+    },
+    {
+      "index": 266,
+      "name": "TimeDomainLongTermShearRelaxation",
+      "type": "4"
+    },
+    {
+      "index": 267,
+      "name": "TimeDomainLongTermBulkRelaxation",
+      "type": "4"
+    },
+    {
+      "index": 268,
+      "name": "TimeNormalizedShearCompliance",
+      "type": "5"
+    },
+    {
+      "index": 269,
+      "name": "TimeNormalizedBulkCompliance",
+      "type": "5"
+    },
+    {
+      "index": 270,
+      "name": "TimeShearBulkComplianceData",
+      "type": "5"
+    },
+    {
+      "index": 271,
+      "name": "TimeNormalizedShearRelaxation",
+      "type": "5"
+    },
+    {
+      "index": 272,
+      "name": "TimeNormalizedBulkRelaxation",
+      "type": "5"
+    },
+    {
+      "index": 273,
+      "name": "TimeShearBulkRelaxationData",
+      "type": "5"
+    },
+    {
+      "index": 274,
+      "name": "ViscoelasticTimeFreqTabularData",
+      "type": "5"
+    },
+    {
+      "index": 275,
+      "name": "PronyParameterType",
+      "type": "3"
+    },
+    {
+      "index": 276,
+      "name": "ViscoelasticPronyTimeParms",
+      "type": "5"
+    },
+    {
+      "index": 277,
+      "name": "ElasticBulkModulus",
+      "type": "6"
+    },
+    {
+      "index": 278,
+      "name": "ShortTermShearModulusG0",
+      "type": "6"
+    },
+    {
+      "index": 279,
+      "name": "LongTermShearModulusGI",
+      "type": "6"
+    },
+    {
+      "index": 280,
+      "name": "DecayConstant",
+      "type": "6"
+    },
+    {
+      "index": 281,
+      "name": "ViscoelasticFrequencyDefn",
+      "type": "3"
+    },
+    {
+      "index": 282,
+      "name": "ViscoelasticFrequencyDefn2",
+      "type": "3"
+    },
+    {
+      "index": 283,
+      "name": "FreqErrorTolerance",
+      "type": "4"
+    },
+    {
+      "index": 284,
+      "name": "FreqNMax",
+      "type": "3"
+    },
+    {
+      "index": 285,
+      "name": "ViscoelasticFrequencyDefnCreepTestDataFormat",
+      "type": "3"
+    },
+    {
+      "index": 286,
+      "name": "ViscoelasticFrequencyDefnRelaxTestDataFormat",
+      "type": "3"
+    },
+    {
+      "index": 287,
+      "name": "FreqDomainLongTermShearCompliance",
+      "type": "4"
+    },
+    {
+      "index": 288,
+      "name": "FreqDomainLongTermBulkCompliance",
+      "type": "4"
+    },
+    {
+      "index": 289,
+      "name": "FreqDomainLongTermShearRelaxation",
+      "type": "4"
+    },
+    {
+      "index": 290,
+      "name": "FreqDomainLongTermBulkRelaxation",
+      "type": "4"
+    },
+    {
+      "index": 291,
+      "name": "FreqNormalizedShearCompliance",
+      "type": "5"
+    },
+    {
+      "index": 292,
+      "name": "FreqNormalizedBulkCompliance",
+      "type": "5"
+    },
+    {
+      "index": 293,
+      "name": "FreqShearBulkComplianceData",
+      "type": "5"
+    },
+    {
+      "index": 294,
+      "name": "FreqNormalizedShearRelaxation",
+      "type": "5"
+    },
+    {
+      "index": 295,
+      "name": "FreqNormalizedBulkRelaxation",
+      "type": "5"
+    },
+    {
+      "index": 296,
+      "name": "FreqShearBulkRelaxationData",
+      "type": "5"
+    },
+    {
+      "index": 297,
+      "name": "ViscoelasticPronyFreqParms",
+      "type": "5"
+    },
+    {
+      "index": 298,
+      "name": "ViscoelasticPreload",
+      "type": "3"
+    },
+    {
+      "index": 299,
+      "name": "ViscoelasticPreload2",
+      "type": "3"
+    },
+    {
+      "index": 300,
+      "name": "ViscoelasticFreqTabularData",
+      "type": "5"
+    },
+    {
+      "index": 301,
+      "name": "ViscoelasticUniaxialData",
+      "type": "5"
+    },
+    {
+      "index": 302,
+      "name": "ViscoelasticBulkData",
+      "type": "5"
+    },
+    {
+      "index": 303,
+      "name": "FrequencyNormalizedLossShearModuliiField",
+      "type": "5"
+    },
+    {
+      "index": 304,
+      "name": "FrequencyUniaxialLossStorageModuliiClosureField",
+      "type": "5"
+    },
+    {
+      "index": 305,
+      "name": "FreqFormulaG1",
+      "type": "8"
+    },
+    {
+      "index": 306,
+      "name": "FreqFormulaAlpha",
+      "type": "4"
+    },
+    {
+      "index": 307,
+      "name": "FreqFormulaK1",
+      "type": "8"
+    },
+    {
+      "index": 308,
+      "name": "FreqFormulaBeta",
+      "type": "4"
+    },
+    {
+      "index": 309,
+      "name": "Damping",
+      "type": "6"
+    },
+    {
+      "index": 310,
+      "name": "SecondHookeCoefficient",
+      "type": "6"
+    },
+    {
+      "index": 311,
+      "name": "ViscoplasticModelType",
+      "type": "3"
+    },
+    {
+      "index": 312,
+      "name": "CreepParameterEXPN",
+      "type": "6"
+    },
+    {
+      "index": 313,
+      "name": "CreepParameterBIGK",
+      "type": "6"
+    },
+    {
+      "index": 314,
+      "name": "CreepParameterLITK",
+      "type": "6"
+    },
+    {
+      "index": 315,
+      "name": "IsotropicHardeningEXPM",
+      "type": "6"
+    },
+    {
+      "index": 316,
+      "name": "KinematicHardeningCOCA",
+      "type": "6"
+    },
+    {
+      "index": 317,
+      "name": "DamageParameterCOEN",
+      "type": "6"
+    },
+    {
+      "index": 318,
+      "name": "DamageParameterEXEN",
+      "type": "6"
+    },
+    {
+      "index": 319,
+      "name": "DamageParameterPDEN",
+      "type": "6"
+    },
+    {
+      "index": 320,
+      "name": "DamageParameterDDEN",
+      "type": "6"
+    },
+    {
+      "index": 321,
+      "name": "JohnsonCookConstantA",
+      "type": "4"
+    },
+    {
+      "index": 322,
+      "name": "JohnsonCookConstantB",
+      "type": "4"
+    },
+    {
+      "index": 323,
+      "name": "JohnsonCookConstantN",
+      "type": "4"
+    },
+    {
+      "index": 324,
+      "name": "JohnsonCookConstantC",
+      "type": "4"
+    },
+    {
+      "index": 325,
+      "name": "EffectiveFailurePlastStrain",
+      "type": "4"
+    },
+    {
+      "index": 326,
+      "name": "MaxStressWorkHardening",
+      "type": "4"
+    },
+    {
+      "index": 327,
+      "name": "SaturationStress",
+      "type": "4"
+    },
+    {
+      "index": 328,
+      "name": "QuasiStaticThresholdStrainRate",
+      "type": "4"
+    },
+    {
+      "index": 329,
+      "name": "DamageModelType",
+      "type": "3"
+    },
+    {
+      "index": 330,
+      "name": "PlyDamageVersion",
+      "type": "3"
+    },
+    {
+      "index": 331,
+      "name": "MaximumDamageValue_dmax",
+      "type": "4"
+    },
+    {
+      "index": 332,
+      "name": "MaximumDamageValue_ds",
+      "type": "4"
+    },
+    {
+      "index": 333,
+      "name": "3DEffectParameter",
+      "type": "3"
+    },
+    {
+      "index": 334,
+      "name": "EnergyThreshold_Y11lim+",
+      "type": "6"
+    },
+    {
+      "index": 335,
+      "name": "EnergyThreshold_Y11lim-",
+      "type": "6"
+    },
+    {
+      "index": 336,
+      "name": "EnergyThreshold_Y22lim+",
+      "type": "6"
+    },
+    {
+      "index": 337,
+      "name": "EnergyThreshold_Y22lim-",
+      "type": "6"
+    },
+    {
+      "index": 338,
+      "name": "NonlinearCoeffOption",
+      "type": "3"
+    },
+    {
+      "index": 339,
+      "name": "NonlinearOption",
+      "type": "3"
+    },
+    {
+      "index": 340,
+      "name": "NonlinearCoefficient_Ksi+",
+      "type": "6"
+    },
+    {
+      "index": 341,
+      "name": "NonlinearCoefficient_Ksi-",
+      "type": "6"
+    },
+    {
+      "index": 342,
+      "name": "NonlinearFunction_Fonc+",
+      "type": "6"
+    },
+    {
+      "index": 343,
+      "name": "NonlinearFunction_Fonc-",
+      "type": "6"
+    },
+    {
+      "index": 344,
+      "name": "NonlinearCoefficient_Ksi1+",
+      "type": "6"
+    },
+    {
+      "index": 345,
+      "name": "NonlinearCoefficient_Ksi1-",
+      "type": "6"
+    },
+    {
+      "index": 346,
+      "name": "EnergyLimitValue",
+      "type": "6"
+    },
+    {
+      "index": 347,
+      "name": "DiffuseDamageEnergyThreshold",
+      "type": "6"
+    },
+    {
+      "index": 348,
+      "name": "DiffuseDamageCriticalValue",
+      "type": "6"
+    },
+    {
+      "index": 349,
+      "name": "ShearEnergyOption",
+      "type": "3"
+    },
+    {
+      "index": 350,
+      "name": "EnergyThresholdInShear",
+      "type": "6"
+    },
+    {
+      "index": 351,
+      "name": "EnergyCriticalValue",
+      "type": "6"
+    },
+    {
+      "index": 352,
+      "name": "DamageNonlinearFunction",
+      "type": "6"
+    },
+    {
+      "index": 353,
+      "name": "LimitEnergyTransverseDirection",
+      "type": "6"
+    },
+    {
+      "index": 354,
+      "name": "CouplingCoefficient_b2",
+      "type": "4"
+    },
+    {
+      "index": 355,
+      "name": "CouplingCoefficient_b3",
+      "type": "4"
+    },
+    {
+      "index": 356,
+      "name": "CouplingCoefficient_a",
+      "type": "4"
+    },
+    {
+      "index": 357,
+      "name": "CouplingCoefficient_k",
+      "type": "4"
+    },
+    {
+      "index": 358,
+      "name": "CouplingCoefficient_alpha",
+      "type": "4"
+    },
+    {
+      "index": 359,
+      "name": "CouplingCoefficient_alpha1",
+      "type": "4"
+    },
+    {
+      "index": 360,
+      "name": "CouplingCoefficient_alpha2",
+      "type": "4"
+    },
+    {
+      "index": 361,
+      "name": "PlyFractureToughness_GIc",
+      "type": "6"
+    },
+    {
+      "index": 362,
+      "name": "PlyFractureToughness_GIIc",
+      "type": "6"
+    },
+    {
+      "index": 363,
+      "name": "PlyFractureToughness_GIIIc",
+      "type": "6"
+    },
+    {
+      "index": 364,
+      "name": "MaxTransMicroCrackDamage",
+      "type": "4"
+    },
+    {
+      "index": 365,
+      "name": "InitialPlasticThreshold",
+      "type": "6"
+    },
+    {
+      "index": 366,
+      "name": "ParameterPlasticLaw",
+      "type": "6"
+    },
+    {
+      "index": 367,
+      "name": "ExponentPlasticLaw",
+      "type": "6"
+    },
+    {
+      "index": 368,
+      "name": "TransitionThickness",
+      "type": "4"
+    },
+    {
+      "index": 369,
+      "name": "ParameterDelay",
+      "type": "4"
+    },
+    {
+      "index": 370,
+      "name": "TimeDelay",
+      "type": "4"
+    },
+    {
+      "index": 371,
+      "name": "PlasticityStrategyParameter",
+      "type": "3"
+    },
+    {
+      "index": 372,
+      "name": "NonLocalParameter",
+      "type": "4"
+    },
+    {
+      "index": 373,
+      "name": "EquivalentPlasticStrainLimit",
+      "type": "6"
+    },
+    {
+      "index": 374,
+      "name": "MaxDamageValue",
+      "type": "4"
+    },
+    {
+      "index": 375,
+      "name": "LinearBehavior",
+      "type": "3"
+    },
+    {
+      "index": 376,
+      "name": "ShearStressParameterALPH",
+      "type": "4"
+    },
+    {
+      "index": 377,
+      "name": "BulkModulusFailedMaterial",
+      "type": "4"
+    },
+    {
+      "index": 378,
+      "name": "PlyThickness",
+      "type": "4"
+    },
+    {
+      "index": 379,
+      "name": "PlyFailureTheory",
+      "type": "3"
+    },
+    {
+      "index": 380,
+      "name": "UserDefinedFailureTheories",
+      "type": "3"
+    },
+    {
+      "index": 381,
+      "name": "InterlaminarFailureTheory",
+      "type": "3"
+    },
+    {
+      "index": 382,
+      "name": "UserDefinedInterlaminarFailureTheories",
+      "type": "3"
+    },
+    {
+      "index": 383,
+      "name": "DrapingSolver",
+      "type": "3"
+    },
+    {
+      "index": 384,
+      "name": "LockAngle",
+      "type": "4"
+    },
+    {
+      "index": 385,
+      "name": "DrapingPath",
+      "type": "3"
+    },
+    {
+      "index": 386,
+      "name": "ZoneAngleTolerance",
+      "type": "4"
+    },
+    {
+      "index": 387,
+      "name": "AccountForWovenFiberShear",
+      "type": "2"
+    },
+    {
+      "index": 388,
+      "name": "KE",
+      "type": "4"
+    },
+    {
+      "index": 389,
+      "name": "CoatingsVisualizationColor",
+      "type": "8"
+    },
+    {
+      "index": 390,
+      "name": "CoatingsStudioMaterialName",
+      "type": "1"
+    },
+    {
+      "index": 391,
+      "name": "StudioMaterialSelectionList",
+      "type": "1"
+    },
+    {
+      "index": 392,
+      "name": "CrosshatchPattern",
+      "type": "1"
+    },
+    {
+      "index": 393,
+      "name": "ConfigurableProperties",
+      "type": "1"
+    },
+    {
+      "index": 394,
+      "name": "NxNastranUMATModelType",
+      "type": "3"
+    },
+    {
+      "index": 395,
+      "name": "NxNastranUMATCreepThresholdStrain",
+      "type": "4"
+    },
+    {
+      "index": 396,
+      "name": "NxNastranUMATCheckUnitSystem",
+      "type": "3"
+    },
+    {
+      "index": 397,
+      "name": "NxNastranUMATForceLengthMassUnits",
+      "type": "3"
+    },
+    {
+      "index": 398,
+      "name": "NxNastranUMATModel1",
+      "type": "3"
+    },
+    {
+      "index": 399,
+      "name": "NxNastranUMATCreepModel1",
+      "type": "3"
+    },
+    {
+      "index": 400,
+      "name": "NxNastranUMATStateVarOutputModel1",
+      "type": "9"
+    },
+    {
+      "index": 401,
+      "name": "NxNastranUMATCreepStateVarOutputModel1",
+      "type": "9"
+    },
+    {
+      "index": 402,
+      "name": "NxNastranUMATModel2",
+      "type": "3"
+    },
+    {
+      "index": 403,
+      "name": "NxNastranUMATCreepModel2",
+      "type": "3"
+    },
+    {
+      "index": 404,
+      "name": "NxNastranUMATStateVarOutputModel2",
+      "type": "9"
+    },
+    {
+      "index": 405,
+      "name": "NxNastranUMATCreepStateVarOutputModel2",
+      "type": "9"
+    },
+    {
+      "index": 406,
+      "name": "SamcefUMATModel",
+      "type": "3"
+    },
+    {
+      "index": 407,
+      "name": "SamcefUMATStateVarOutputModel",
+      "type": "9"
+    },
+    {
+      "index": 408,
+      "name": "MatlAppliedEnvironment",
+      "type": "3"
+    },
+    {
+      "index": 409,
+      "name": "SCNastranAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 410,
+      "name": "SCSamcefAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 411,
+      "name": "SCThermalFlowAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 412,
+      "name": "SCSpaceSystemsThermalAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 413,
+      "name": "SCElectronicSystemCoolingAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 414,
+      "name": "SCMultiphysicsAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 415,
+      "name": "SCAcousticsBEMAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 416,
+      "name": "SCAcousticsTransientBEMAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 417,
+      "name": "SCRayAcousticsAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 418,
+      "name": "SCNoiseVibrationAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 419,
+      "name": "SCMagnetAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 420,
+      "name": "NXDesignSimAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 421,
+      "name": "MSCNastranAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 422,
+      "name": "AbaqusAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 423,
+      "name": "AnsysAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 424,
+      "name": "LSDynaAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 425,
+      "name": "MotionAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 426,
+      "name": "HFEMIDSAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 427,
+      "name": "ModelingAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 428,
+      "name": "CoatingsAppliedViews",
+      "type": "-1"
+    },
+    {
+      "index": 429,
+      "name": "NonPhysicalProp_Abaqus_AlphaDampingFactor",
+      "type": "6"
+    },
+    {
+      "index": 430,
+      "name": "NonPhysicalProp_Abaqus_BetaDampingFactor",
+      "type": "6"
+    },
+    {
+      "index": 431,
+      "name": "NonPhysicalProp_Abaqus_CompositeDampingFraction",
+      "type": "4"
+    },
+    {
+      "index": 432,
+      "name": "NonPhysicalProp_Abaqus_StructuralDampingFactor",
+      "type": "6"
+    },
+    {
+      "index": 433,
+      "name": "NonPhysicalProp_Abaqus_HeatGeneration",
+      "type": "2"
+    },
+    {
+      "index": 434,
+      "name": "NonPhysicalProp_Abaqus_ProgressiveFailureTHEORY",
+      "type": "3"
+    },
+    {
+      "index": 435,
+      "name": "NonPhysicalProp_Abaqus_DE11",
+      "type": "4"
+    },
+    {
+      "index": 436,
+      "name": "NonPhysicalProp_Abaqus_DE22",
+      "type": "4"
+    },
+    {
+      "index": 437,
+      "name": "NonPhysicalProp_Abaqus_DG12",
+      "type": "4"
+    },
+    {
+      "index": 438,
+      "name": "NonPhysicalProp_Abaqus_Dv12",
+      "type": "4"
+    },
+    {
+      "index": 439,
+      "name": "NonPhysicalProp_Abaqus_Y11L",
+      "type": "4"
+    },
+    {
+      "index": 440,
+      "name": "NonPhysicalProp_Abaqus_Y11U",
+      "type": "4"
+    },
+    {
+      "index": 441,
+      "name": "NonPhysicalProp_Abaqus_Y012",
+      "type": "4"
+    },
+    {
+      "index": 442,
+      "name": "NonPhysicalProp_Abaqus_YC12",
+      "type": "4"
+    },
+    {
+      "index": 443,
+      "name": "NonPhysicalProp_Abaqus_YF12",
+      "type": "4"
+    },
+    {
+      "index": 444,
+      "name": "NonPhysicalProp_Abaqus_YF22",
+      "type": "4"
+    },
+    {
+      "index": 445,
+      "name": "NonPhysicalProp_Abaqus_b3",
+      "type": "4"
+    },
+    {
+      "index": 446,
+      "name": "NonPhysicalProp_LSDyna_MaterialAxisOptionAOPT",
+      "type": "3"
+    },
+    {
+      "index": 447,
+      "name": "NonPhysicalProp_LSDyna_MACF",
+      "type": "3"
+    },
+    {
+      "index": 448,
+      "name": "NonPhysicalProp_LSDyna_MaterialAngleBETA",
+      "type": "4"
+    },
+    {
+      "index": 449,
+      "name": "NonPhysicalProp_LSDyna_MaterialAxisTrackingOption",
+      "type": "3"
+    },
+    {
+      "index": 450,
+      "name": "NonPhysicalProp_LSDyna_IHIS",
+      "type": "3"
+    },
+    {
+      "index": 451,
+      "name": "NonPhysicalProp_LSDyna_InitializeStressTensorRefGeometry",
+      "type": "3"
+    },
+    {
+      "index": 452,
+      "name": "NonPhysicalProp_LSDyna_2WAY",
+      "type": "3"
+    },
+    {
+      "index": 453,
+      "name": "NonPhysicalProp_LSDyna_TI",
+      "type": "3"
+    },
+    {
+      "index": 454,
+      "name": "NonPhysicalProp_LSDyna_FBRT",
+      "type": "4"
+    },
+    {
+      "index": 455,
+      "name": "NonPhysicalProp_LSDyna_SOFT",
+      "type": "4"
+    },
+    {
+      "index": 456,
+      "name": "NonPhysicalProp_LSDyna_YCFAC",
+      "type": "4"
+    },
+    {
+      "index": 457,
+      "name": "NonPhysicalProp_LSDyna_DFAILTcheck",
+      "type": "3"
+    },
+    {
+      "index": 458,
+      "name": "NonPhysicalProp_LSDyna_DFAILT",
+      "type": "4"
+    },
+    {
+      "index": 459,
+      "name": "NonPhysicalProp_LSDyna_DFAILTABDirection",
+      "type": "4"
+    },
+    {
+      "index": 460,
+      "name": "NonPhysicalProp_LSDyna_DFAILC",
+      "type": "4"
+    },
+    {
+      "index": 461,
+      "name": "NonPhysicalProp_LSDyna_DFAILCABDirection",
+      "type": "4"
+    },
+    {
+      "index": 462,
+      "name": "NonPhysicalProp_LSDyna_DFAILM",
+      "type": "4"
+    },
+    {
+      "index": 463,
+      "name": "NonPhysicalProp_LSDyna_DFAILS",
+      "type": "4"
+    },
+    {
+      "index": 464,
+      "name": "NonPhysicalProp_LSDyna_TFAIL",
+      "type": "4"
+    },
+    {
+      "index": 465,
+      "name": "NonPhysicalProp_LSDyna_CRIT",
+      "type": "3"
+    },
+    {
+      "index": 466,
+      "name": "NonPhysicalProp_LSDyna_BETA",
+      "type": "4"
+    },
+    {
+      "index": 467,
+      "name": "NonPhysicalProp_LSDyna_DT",
+      "type": "3"
+    },
+    {
+      "index": 468,
+      "name": "NonPhysicalProp_LSDyna_DTValue",
+      "type": "4"
+    },
+    {
+      "index": 469,
+      "name": "NonPhysicalProp_LSDyna_PFL",
+      "type": "4"
+    },
+    {
+      "index": 470,
+      "name": "NonPhysicalProp_LSDyna_SOFT2",
+      "type": "4"
+    },
+    {
+      "index": 471,
+      "name": "NonPhysicalProp_LSDyna_SLIMT1",
+      "type": "4"
+    },
+    {
+      "index": 472,
+      "name": "NonPhysicalProp_LSDyna_SLIMC1",
+      "type": "4"
+    },
+    {
+      "index": 473,
+      "name": "NonPhysicalProp_LSDyna_SLIMT2",
+      "type": "4"
+    },
+    {
+      "index": 474,
+      "name": "NonPhysicalProp_LSDyna_SLIMC2",
+      "type": "4"
+    },
+    {
+      "index": 475,
+      "name": "NonPhysicalProp_LSDyna_SLIMS",
+      "type": "4"
+    },
+    {
+      "index": 476,
+      "name": "NonPhysicalProp_LSDyna_SOFTG",
+      "type": "4"
+    },
+    {
+      "index": 477,
+      "name": "NonPhysicalProp_LSDyna_NCYRED",
+      "type": "3"
+    }
+  ],
+  "set_results": {
+    "YoungsModulus1": {
+      "candidates": [
+        "YoungsModulus",
+        "YoungsModulusX",
+        "E1",
+        "YoungsModulus11"
+      ],
+      "found": [
+        "YoungsModulus"
+      ],
+      "set": "SetDoublePropertyValue"
+    },
+    "ShearModulus12": {
+      "candidates": [
+        "ShearModulusXY",
+        "G12"
+      ],
+      "found": []
+    },
+    "ShearModulus13": {
+      "candidates": [
+        "ShearModulusXZ",
+        "G13"
+      ],
+      "found": []
+    },
+    "ShearModulus23": {
+      "candidates": [
+        "ShearModulusYZ",
+        "G23"
+      ],
+      "found": []
+    },
+    "PoissonsRatio12": {
+      "candidates": [
+        "PoissonsRatioXY",
+        "Nu12"
+      ],
+      "found": []
+    },
+    "PoissonsRatio13": {
+      "candidates": [
+        "PoissonsRatioXZ",
+        "Nu13"
+      ],
+      "found": []
+    },
+    "PoissonsRatio23": {
+      "candidates": [
+        "PoissonsRatioYZ",
+        "Nu23"
+      ],
+      "found": []
+    }
+  },
+  "errors": [],
+  "saved": true,
+  "assigned": [
+    "TUB_U__CORE_EQUIVALENT",
+    "FRONT_BULKHEAD__CORE_EQUIVALENT",
+    "REAR_BULKHEAD__CORE_EQUIVALENT",
+    "FRONT_DECK__CORE_EQUIVALENT"
+  ],
+  "output": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\abdb0f5f42bd5f9d2cc3e356\\Monocoque_EDU_v06_materials.prt"
+}
