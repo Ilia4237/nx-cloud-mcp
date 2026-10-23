@@ -17,28 +17,11 @@ if session is None:
     raise RuntimeError("NX session unavailable")
 ufs = NXOpen.UF.UFSession.GetUFSession()
 disp = ufs.Disp
-
-def call_variants(func, variants):
-    errors = []
-    for args in variants:
-        try:
-            result = func(*args)
-            return args, result, None
-        except Exception as exc:
-            errors.append(f"{args!r}: {type(exc).__name__}: {exc}")
-    return None, None, " | ".join(errors)
-
-method_candidates = []
-for container in [disp, ufs]:
-    for group in ["ShadeMethod", "UFDispShadeMethod", "ShadeMode"]:
-        obj = getattr(container, group, None)
-        if obj is None:
-            continue
-        for name in ["Preview", "HighQuality", "Normal", "Wireframe"]:
-            value = getattr(obj, name, None)
-            if value is not None:
-                method_candidates.append(value)
-method_candidates += [0, 1, 2, 3]
+shade_method_type = disp.ShadeMethod
+members = [getattr(shade_method_type, n) for n in dir(shade_method_type) if not n.startswith("_") and not callable(getattr(shade_method_type, n))]
+if not members:
+    raise RuntimeError(f"No ShadeMethod members found: {dir(shade_method_type)}")
+shade_method = members[0]
 
 opened = session.Parts.Open(str(part_path))
 part, load_status = opened if isinstance(opened, tuple) else (opened, None)
@@ -56,18 +39,13 @@ try:
         part.ModelingViews.WorkView.Fit()
     except Exception as exc:
         diagnostics.append(f"fit: {exc}")
-
-    variants = []
-    for method in method_candidates:
-        variants.append((str(png_path), 1280, 720, method))
-    variants.append((str(png_path), 1280, 720))
-    variants.append((str(png_path),))
-    args, result, errors = call_variants(disp.BatchShade, variants)
-    diagnostics.append(f"batchshade_args={args!r}")
-    diagnostics.append(f"batchshade_result={result!r}")
-    diagnostics.append(f"batchshade_errors={errors}")
-    diagnostics.append(f"disp_attributes={sorted([n for n in dir(disp) if not n.startswith('_')])}")
-
+    shade_error = None
+    try:
+        disp.BatchShade(str(png_path), 1280, 720, shade_method)
+    except Exception as exc:
+        shade_error = f"{type(exc).__name__}: {exc}"
+    diagnostics.append(f"shade_method={shade_method!r}")
+    diagnostics.append(f"batchshade={shade_error}")
     if not png_path.is_file() or png_path.stat().st_size == 0:
         report_path.write_text(
             "NX_PREVIEW_FAILED\n"
