@@ -1,7 +1,14 @@
 {
   "task_id": "20261023183400_geometry_audit_fixed",
-  "state": "running",
-  "result": {},
-  "error": "",
-  "updated_at": "2026-10-23T15:35:34.307706+00:00"
+  "state": "failed",
+  "result": {
+    "task_id": "20261023183400_geometry_audit_fixed",
+    "ok": false,
+    "error": "NX return code 1; Traceback (most recent call last):\n  File \"C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\7f9f1c65882062d564979c16\\runner.py\", line 9, in <module>\n    runpy.run_path(str(root/'payload.py'),run_name='__main__')\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 289, in run_path\n    return _run_module_code(code, init_globals, run_name,\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 96, in _run_module_code\n    _run_code(code, mod_globals, init_globals,\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\7f9f1c65882062d564979c16\\payload.py\", line 11, in <module>\n    exec(compile(source,\"geometry_audit_fixed\",\"exec\"))\n  File \"geometry_audit_fixed\", line 12, in <module>\nNXOpen.NXException: Internal error: memory access violation\n",
+    "artifacts": [],
+    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\7f9f1c65882062d564979c16",
+    "remote_artifacts": []
+  },
+  "error": "NX return code 1; Traceback (most recent call last):\n  File \"C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\7f9f1c65882062d564979c16\\runner.py\", line 9, in <module>\n    runpy.run_path(str(root/'payload.py'),run_name='__main__')\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 289, in run_path\n    return _run_module_code(code, init_globals, run_name,\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 96, in _run_module_code\n    _run_code(code, mod_globals, init_globals,\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\7f9f1c65882062d564979c16\\payload.py\", line 11, in <module>\n    exec(compile(source,\"geometry_audit_fixed\",\"exec\"))\n  File \"geometry_audit_fixed\", line 12, in <module>\nNXOpen.NXException: Internal error: memory access violation\n",
+  "updated_at": "2026-10-23T15:35:54.911981+00:00"
 }
