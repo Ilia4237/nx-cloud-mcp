@@ -1,7 +1,22 @@
 {
   "task_id": "20261023201700_assign_v13_core_prop_names",
-  "state": "running",
-  "result": {},
+  "state": "done",
+  "result": {
+    "task_id": "20261023201700_assign_v13_core_prop_names",
+    "ok": true,
+    "artifacts": [
+      "V13_CORE_PROP_NAMES_REPORT.txt"
+    ],
+    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\dd8a9e4c4b904b9eaea389f3",
+    "remote_artifacts": [
+      {
+        "name": "V13_CORE_PROP_NAMES_REPORT.txt",
+        "repository_path": "results/dd8a9e4c4b904b9eaea389f3/V13_CORE_PROP_NAMES_REPORT.txt",
+        "bytes": 47374,
+        "sha256": "91402381455a828ba3c371d41f41fbaf94561c43e0736031efdd14635e26ea72"
+      }
+    ]
+  },
   "error": "",
-  "updated_at": "2026-10-23T17:19:10.379912+00:00"
+  "updated_at": "2026-10-23T17:19:37.150730+00:00"
 }
