@@ -1,7 +1,10 @@
 {
   "task_id": "20261023100900_queue_test",
-  "state": "running",
-  "result": {},
-  "error": "",
-  "updated_at": "2026-10-23T07:11:01.633913+00:00"
+  "state": "failed",
+  "result": {
+    "ok": false,
+    "error": "Supported actions: agent_info, run_job. Legacy NX tasks are NOT executed."
+  },
+  "error": "Supported actions: agent_info, run_job. Legacy NX tasks are NOT executed.",
+  "updated_at": "2026-10-23T07:11:05.692566+00:00"
 }
