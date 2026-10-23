@@ -1,1 +1,1 @@
-{"task_id":"20261023201700_assign_v13_core_prop_names","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/assign_v13_core_prop_names.py","sha256":"250f924dd0c99636e719de46cc86881ff244fa63279ec13864b520646f491fc6"}}
+{"task_id":"20261023202000_assign_v14_core_final_props","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/assign_v14_core_final_props.py","sha256":"423bcae2d4e92add210a018cdb586dba01e01027357b148141703540e20c48cc"}}
