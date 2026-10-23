@@ -1,14 +1,11 @@
 {
-  "task_id": "20261023115600_monocoque_preview",
+  "task_id": "20261023120100_monocoque_preview_fixed",
   "status": "pending",
   "action": "run_job",
   "parameters": {
     "application": "nx",
     "mode": "batch",
     "script_path": "jobs/nx_preview.py",
-    "sha256": "feccc5a3151174438838bb95bbfe50ef68f552e17f1fae08208719ceee38267b",
-    "env": {
-      "NX_PART_PATH": "C:\\Users\\bobri\\NX_Rollback_Backup_20261023_035742\\NX_Automation\\Monocoque_EDU_v04.prt"
-    }
+    "sha256": "6dadb80cbb91c017e79c4beccd98727bf7f8c4c6c88c038ba8faa879967a289e"
   }
 }

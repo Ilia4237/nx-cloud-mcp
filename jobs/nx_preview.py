@@ -4,7 +4,7 @@ import NXOpen
 import NXOpen.UF
 
 out_dir = Path(os.environ["SIEMENS_JOB_DIR"]).resolve()
-part_path = Path(os.environ["NX_PART_PATH"])
+part_path = Path(r"C:\Users\bobri\NX_Rollback_Backup_20261023_035742\NX_Automation\Monocoque_EDU_v04.prt")
 png_path = out_dir / "MONOCOQUE_PREVIEW.png"
 report_path = out_dir / "MONOCOQUE_PREVIEW.txt"
 if png_path.exists() or report_path.exists():
