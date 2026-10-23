@@ -19,13 +19,15 @@ ufs = NXOpen.UF.UFSession.GetUFSession()
 
 opened = session.Parts.Open(str(part_path))
 part, load_status = opened if isinstance(opened, tuple) else (opened, None)
-if load_status is not None:
-    load_status.Dispose()
 if part is None:
     raise RuntimeError("NX could not open the part")
+try:
+    session.Parts.SetDisplay(part, True, True, load_status)
+finally:
+    if load_status is not None:
+        load_status.Dispose()
 
 try:
-    session.Parts.SetWork(part)
     view = part.ModelingViews.WorkView
     try:
         view.Orient(NXOpen.View.Canned.Isometric)
