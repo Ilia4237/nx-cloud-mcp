@@ -1,1 +1,1 @@
-{"task_id":"20261023195400_assign_v06_core_fixed","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/assign_v06_core_fixed.py","sha256":"361c5e6e5ef3cfe1ee675b4d685badd1dd33e7b10fe2503aa75171bad9062d18"}}
+{"task_id":"20261023195600_assign_v06_core_default","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/assign_v06_core_default.py","sha256":"a78d98124dff56617c37bebad57e35e31ac7ad33101676443436f8ee27a72621"}}
