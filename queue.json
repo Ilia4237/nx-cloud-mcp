@@ -1,13 +1,7 @@
 {
-  "task_id": "20261023111900_master_v02_retry",
-  "action": "run_job",
-  "parameters": {
-    "application": "nx",
-    "mode": "batch",
-    "script_path": "jobs/nx_master_v02.py",
-    "sha256": "631614c224f036e3195a3321b2e7758bdfed2ec3838e9d70398c47191a5ecebb",
-    "main_part": "MASTER_V02.prt"
-  },
-  "created_at": "2026-10-23T08:20:36.022273+00:00",
+  "task_id": "20261023113100_agent_ping",
+  "action": "agent_ping",
+  "parameters": {},
+  "created_at": "2026-10-23T08:36:10.767913+00:00",
   "status": "pending"
 }
