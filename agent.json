@@ -1,0 +1,16 @@
+{
+  "task_id": "",
+  "last_error": "",
+  "state": "idle",
+  "state_changed_at": "2026-10-23T08:30:54.579371+00:00",
+  "agent_version": "0.3",
+  "session_id": "3ee41d2a3847d0b9",
+  "last_seen": "2026-10-23T08:30:54.579371+00:00",
+  "heartbeat_seconds": 60,
+  "computer": "ASUSVIVOBOOK16X",
+  "repository": "Ilia4237/nx-cloud-mcp",
+  "branch": "main",
+  "unattended": true,
+  "upload_previews": false,
+  "note": "Timestamp heartbeat, not proof of NX responsiveness. Single replacement queue, not a multi-job queue."
+}
