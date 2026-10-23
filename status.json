@@ -1,22 +1,7 @@
 {
-  "task_id": "20261023184800_interference_audit",
-  "state": "done",
-  "result": {
-    "task_id": "20261023184800_interference_audit",
-    "ok": true,
-    "artifacts": [
-      "INTERFERENCE_REPORT.txt"
-    ],
-    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\a1ed1dfdd4d8fb71b21a68c6",
-    "remote_artifacts": [
-      {
-        "name": "INTERFERENCE_REPORT.txt",
-        "repository_path": "results/a1ed1dfdd4d8fb71b21a68c6/INTERFERENCE_REPORT.txt",
-        "bytes": 3778,
-        "sha256": "fcce465f4c888be0fe78df5adab0abcd8250abd3fd5a34bc2d47ff5577d02c62"
-      }
-    ]
-  },
+  "task_id": "20261023185100_build_v05",
+  "state": "running",
+  "result": {},
   "error": "",
-  "updated_at": "2026-10-23T15:49:20.219584+00:00"
+  "updated_at": "2026-10-23T15:52:01.779962+00:00"
 }
