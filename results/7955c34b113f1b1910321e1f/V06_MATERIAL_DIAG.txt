@@ -1,0 +1,7 @@
+{
+  "steps": [],
+  "saved": false,
+  "errors": [
+    "'NXOpen.PhysicalMaterialCollection' object has no attribute 'PhysicalMaterials'"
+  ]
+}
