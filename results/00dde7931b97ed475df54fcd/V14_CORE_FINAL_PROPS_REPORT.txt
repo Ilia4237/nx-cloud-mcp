@@ -1,0 +1,35 @@
+{
+  "set_results": {
+    "MassDensity": "SetDoublePropertyValue",
+    "YoungsModulus": "SetDoublePropertyValue",
+    "YoungsModulus2": "SetDoublePropertyValue",
+    "YoungsModulus3": "SetDoublePropertyValue",
+    "ShearModulus": "SetDoublePropertyValue",
+    "ShearModulus2": "SetDoublePropertyValue",
+    "ShearModulus3": "SetDoublePropertyValue",
+    "PoissonsRatio": "SetDoublePropertyValue",
+    "PoissonsRatio3": "SetDoublePropertyValue",
+    "PoissonsRatio2": "SetDoublePropertyValue"
+  },
+  "readback": {
+    "MassDensity": 72.0,
+    "YoungsModulus": 0.05,
+    "YoungsModulus2": 0.05,
+    "YoungsModulus3": 1000.0,
+    "ShearModulus": 0.05,
+    "ShearModulus2": 100.0,
+    "ShearModulus3": 100.0,
+    "PoissonsRatio": 0.01,
+    "PoissonsRatio3": 0.0001,
+    "PoissonsRatio2": 0.0001
+  },
+  "errors": [],
+  "saved": true,
+  "assigned": [
+    "TUB_U__CORE_EQUIVALENT",
+    "FRONT_BULKHEAD__CORE_EQUIVALENT",
+    "REAR_BULKHEAD__CORE_EQUIVALENT",
+    "FRONT_DECK__CORE_EQUIVALENT"
+  ],
+  "output": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\abdb0f5f42bd5f9d2cc3e356\\Monocoque_EDU_v06_materials.prt"
+}
