@@ -1,12 +1,12 @@
 {
-  "task_id": "20261023102000_nx_smoke_test",
+  "task_id": "20261023102900_create_plate",
   "action": "run_job",
   "parameters": {
     "application": "nx",
     "mode": "batch",
-    "script_path": "jobs/nx_smoke_test.py",
-    "sha256": "8785557ac7b3572d25a444a33212ae0d7b32900c0da5c9a47139f58a2e1107f0"
+    "script_path": "jobs/nx_create_plate.py",
+    "sha256": "f1d26304b004807888298cc7918019fc237b4f813cd8011e7e2e88989064797d"
   },
-  "created_at": "2026-10-23T07:22:05.299023+00:00",
+  "created_at": "2026-10-23T07:30:55.507761+00:00",
   "status": "pending"
 }
