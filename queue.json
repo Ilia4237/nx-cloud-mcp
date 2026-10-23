@@ -1,1 +1,1 @@
-{"task_id":"20261023193100_v06_material_diag_fixed","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/v06_material_diag_fixed.py","sha256":"fa9625c75432b71781835ac1c6a9ed25b57ee2a4775194230f48922fe9ac4d6a"}}
+{"task_id":"20261023193600_assign_v06_cfrp","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/assign_v06_cfrp.py","sha256":"ec59cf29c2afa6f7a46663c4e478be6ed0faee98ddfe3ca0318d093b38b03ea9"}}
