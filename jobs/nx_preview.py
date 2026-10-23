@@ -1,8 +1,7 @@
 import os
 from pathlib import Path
 import NXOpen
-import NXOpen.UF
-import NXOpen.UF.UFDisp
+import NXOpen.Gateway
 
 out_dir = Path(os.environ["SIEMENS_JOB_DIR"]).resolve()
 part_path = Path(r"C:\Users\bobri\NX_Rollback_Backup_20261023_035742\NX_Automation\Monocoque_EDU_v04.prt")
@@ -16,36 +15,6 @@ if not part_path.is_file():
 session = NXOpen.Session.GetSession()
 if session is None:
     raise RuntimeError("NX session unavailable")
-ufs = NXOpen.UF.UFSession.GetUFSession()
-
-def resolve(*names):
-    value = None
-    for name in names:
-        try:
-            value = getattr(value, name) if value is not None else name
-        except Exception:
-            return None
-    return value
-
-def first_valid(options):
-    for option in options:
-        try:
-            if option is not None:
-                return option
-        except Exception:
-            pass
-    return None
-
-png_format = first_valid([
-    resolve(NXOpen, "UF", "UFDisp", "ImageFormat", "Png"),
-    resolve(ufs, "Disp", "ImageFormat", "Png"),
-])
-background = first_valid([
-    resolve(NXOpen, "UF", "UFDisp", "BackgroundColor", "White"),
-    resolve(ufs, "Disp", "BackgroundColor", "White"),
-])
-if png_format is None or background is None:
-    raise RuntimeError(f"Unable to resolve NX image enums: format={png_format!r}, background={background!r}")
 
 opened = session.Parts.Open(str(part_path))
 part, load_status = opened if isinstance(opened, tuple) else (opened, None)
@@ -67,7 +36,14 @@ try:
         view.Fit()
     except Exception:
         pass
-    ufs.Disp.CreateImage(str(png_path), png_format, background)
+
+    builder = part.ImageCaptureManager.CreateImageCaptureBuilder()
+    builder.CaptureMethod = NXOpen.Gateway.ImageCaptureBuilder.CaptureMethodType.GraphicsArea
+    builder.Format = NXOpen.Gateway.ImageCaptureBuilder.ImageFormat.Png
+    builder.File = str(png_path)
+    builder.Commit()
+    builder.Destroy()
+
     if not png_path.is_file() or png_path.stat().st_size == 0:
         raise RuntimeError("NX did not create a non-empty PNG")
     report_path.write_text(
