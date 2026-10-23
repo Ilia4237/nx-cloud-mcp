@@ -1,22 +1,7 @@
 {
-  "task_id": "20261023194400_assign_v06_cfrp_save_fixed",
-  "state": "done",
-  "result": {
-    "task_id": "20261023194400_assign_v06_cfrp_save_fixed",
-    "ok": true,
-    "artifacts": [
-      "V06_ASSIGN_REPORT.txt"
-    ],
-    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\3b9a392b2e4aad8911b0b2c6",
-    "remote_artifacts": [
-      {
-        "name": "V06_ASSIGN_REPORT.txt",
-        "repository_path": "results/3b9a392b2e4aad8911b0b2c6/V06_ASSIGN_REPORT.txt",
-        "bytes": 790,
-        "sha256": "ec19ebbde00a797744de114b39068d0969eca4b7e52d1e54ed0af813dba64e04"
-      }
-    ]
-  },
+  "task_id": "20261023194900_assign_v06_core",
+  "state": "running",
+  "result": {},
   "error": "",
-  "updated_at": "2026-10-23T16:47:25.872586+00:00"
+  "updated_at": "2026-10-23T16:51:59.006742+00:00"
 }
