@@ -1,18 +1,18 @@
 {
   "task_id": "",
   "last_error": "",
-  "state": "stopped",
-  "state_changed_at": "2026-10-23T08:38:46.033142+00:00",
+  "state": "idle",
+  "state_changed_at": "2026-10-23T08:38:57.880157+00:00",
   "last_task_id": "20261023113100_agent_ping",
   "last_task_state": "done",
   "agent_version": "0.3",
-  "session_id": "60889fe3f72f823a",
-  "last_seen": "2026-10-23T08:38:46.033142+00:00",
+  "session_id": "c6a7ec8a8082a702",
+  "last_seen": "2026-10-23T08:38:57.880157+00:00",
   "heartbeat_seconds": 60,
   "computer": "ASUSVIVOBOOK16X",
   "repository": "Ilia4237/nx-cloud-mcp",
   "branch": "main",
   "unattended": true,
-  "upload_previews": false,
+  "upload_previews": true,
   "note": "Timestamp heartbeat, not proof of NX responsiveness. Single replacement queue, not a multi-job queue."
 }
