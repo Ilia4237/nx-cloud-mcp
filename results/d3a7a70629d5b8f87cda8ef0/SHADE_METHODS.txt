@@ -1,0 +1,10 @@
+SHADE_METHOD_DIAGNOSTIC
+FLAT=<NXOpen.UF.DispShadeMethodMemberType object at 0x000002CA33DD7A50> type=DispShadeMethodMemberType
+GOURAUD=<NXOpen.UF.DispShadeMethodMemberType object at 0x000002CA33DD7A70> type=DispShadeMethodMemberType
+HIGH_QUALITY=<NXOpen.UF.DispShadeMethodMemberType object at 0x000002CA33DD7AB0> type=DispShadeMethodMemberType
+PHONG=<NXOpen.UF.DispShadeMethodMemberType object at 0x000002CA33DD7A90> type=DispShadeMethodMemberType
+PHOTO_REAL=<NXOpen.UF.DispShadeMethodMemberType object at 0x000002CA33DD7AF0> type=DispShadeMethodMemberType
+PREVIEW=<NXOpen.UF.DispShadeMethodMemberType object at 0x000002CA33DD7AD0> type=DispShadeMethodMemberType
+RAYTRACE=<NXOpen.UF.DispShadeMethodMemberType object at 0x000002CA33DD7B10> type=DispShadeMethodMemberType
+ValueOf=<built-in method ValueOf of type object at 0x00007FF4DA1C6400> type=builtin_function_or_method
+BatchShadeOptions=<built-in method BatchShadeOptions of NXOpen.UF.Disp object at 0x000002CA318290D0> type=builtin_function_or_method
