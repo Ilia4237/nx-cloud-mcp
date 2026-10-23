@@ -17,6 +17,35 @@ if session is None:
     raise RuntimeError("NX session unavailable")
 ufs = NXOpen.UF.UFSession.GetUFSession()
 
+def resolve(*names):
+    value = None
+    for name in names:
+        try:
+            value = getattr(value, name) if value is not None else name
+        except Exception:
+            return None
+    return value
+
+def first_valid(options):
+    for option in options:
+        try:
+            if option is not None:
+                return option
+        except Exception:
+            pass
+    return None
+
+png_format = first_valid([
+    resolve(ufs, "Disp", "ImageFormat", "Png"),
+    resolve(NXOpen, "UF", "UFDisp", "ImageFormat", "Png"),
+])
+background = first_valid([
+    resolve(ufs, "Disp", "BackgroundColor", "White"),
+    resolve(NXOpen, "UF", "UFDisp", "BackgroundColor", "White"),
+])
+if png_format is None or background is None:
+    raise RuntimeError(f"Unable to resolve NX image enums: format={png_format!r}, background={background!r}")
+
 opened = session.Parts.Open(str(part_path))
 part, load_status = opened if isinstance(opened, tuple) else (opened, None)
 if part is None:
@@ -37,7 +66,7 @@ try:
         view.Fit()
     except Exception:
         pass
-    ufs.Disp.CreateImage(str(png_path), NXOpen.UF.UFDisp.ImageFormat.Png, NXOpen.UF.UFDisp.BackgroundColor.White)
+    ufs.Disp.CreateImage(str(png_path), png_format, background)
     if not png_path.is_file() or png_path.stat().st_size == 0:
         raise RuntimeError("NX did not create a non-empty PNG")
     report_path.write_text(
