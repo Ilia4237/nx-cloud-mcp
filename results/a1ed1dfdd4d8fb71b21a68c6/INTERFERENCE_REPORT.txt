@@ -1,0 +1,153 @@
+{
+  "pairs": [
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "FRONT_BULKHEAD__INNER_CFRP",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "TUB_U__OUTER_CFRP",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "FRONT_BULKHEAD__INNER_CFRP",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "TUB_U__CORE_EQUIVALENT",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "FRONT_BULKHEAD__INNER_CFRP",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "REAR_BULKHEAD__INNER_CFRP",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "TUB_U__INNER_CFRP",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "FRONT_DECK__OUTER_CFRP",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "FRONT_DECK__CORE_EQUIVALENT",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "FRONT_BULKHEAD__INNER_CFRP",
+      "b": "FRONT_DECK__INNER_CFRP",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "REAR_BULKHEAD__INNER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "FRONT_DECK__CORE_EQUIVALENT",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "FRONT_DECK__CORE_EQUIVALENT",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "FRONT_DECK__INNER_CFRP",
+      "b": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "FRONT_DECK__INNER_CFRP",
+      "b": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "raw_result": [
+        3
+      ]
+    },
+    {
+      "a": "V03_FRONT_EXTERNAL_U_STRAP",
+      "b": "V03_LEFT_DECK_CORNER_STRAP",
+      "raw_result": [
+        1
+      ]
+    },
+    {
+      "a": "V03_FRONT_EXTERNAL_U_STRAP",
+      "b": "V03_RIGHT_DECK_CORNER_STRAP",
+      "raw_result": [
+        1
+      ]
+    }
+  ],
+  "errors": [],
+  "legend": {
+    "1": "interference",
+    "2": "no interference",
+    "3": "touching"
+  },
+  "units": "1",
+  "api_help": "Refer to `UF_MODL_check_interference <../ugopen_doc/uf_modl/global.html#UF_MODL_check_interference>`_ for documentation.  \n\n\nSignature: \n``CheckInterference(target, numTools, tools)``  \n\n:param target:  Target body against which interference is checked\n:type target: Tag\n:param numTools:  Number of tool bodies specified in tools array\n:type numTools: int\n:param tools:  Tool bodies whose interference with target is inquired. Dimensioned to num_tools\n:type tools: list of Tag\n:returns:  Interference status for each tool body. The caller is responsible for allocating it with an array size of num_tools. = 1 -> there is interference = 2 -> no interference = 3 -> touching, that is coincident faces\n:rtype: list of int \nLicense requirements: SOLIDS MODELING\n",
+  "note": "Source model not saved. Interpret raw_result using API signature and legend."
+}
