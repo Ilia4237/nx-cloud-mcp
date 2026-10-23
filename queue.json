@@ -1,7 +1,11 @@
 {
-  "task_id": "20261023113100_agent_ping",
-  "action": "agent_ping",
-  "parameters": {},
-  "created_at": "2026-10-23T08:36:10.767913+00:00",
-  "status": "pending"
+  "task_id": "20261023113900_link_test",
+  "status": "pending",
+  "action": "run_job",
+  "parameters": {
+    "application": "nx",
+    "mode": "batch",
+    "script_path": "jobs/nx_link_test.py",
+    "sha256": "e4d056888189a190aaf81ad6b5c678bfbe15f901d1fa82fdfc583c586bf06586"
+  }
 }
