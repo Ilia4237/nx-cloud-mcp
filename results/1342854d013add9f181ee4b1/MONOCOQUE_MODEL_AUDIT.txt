@@ -1,0 +1,303 @@
+{
+  "source": "C:\\Users\\bobri\\NX_Rollback_Backup_20261023_035742\\NX_Automation\\Monocoque_EDU_v04.prt",
+  "units": "1",
+  "bodies": [
+    {
+      "name": "TUB_U__OUTER_CFRP",
+      "type": "Body"
+    },
+    {
+      "name": "TUB_U__CORE_EQUIVALENT",
+      "type": "Body"
+    },
+    {
+      "name": "TUB_U__INNER_CFRP",
+      "type": "Body"
+    },
+    {
+      "name": "FRONT_BULKHEAD__OUTER_CFRP",
+      "type": "Body"
+    },
+    {
+      "name": "REAR_BULKHEAD__OUTER_CFRP",
+      "type": "Body"
+    },
+    {
+      "name": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "type": "Body"
+    },
+    {
+      "name": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "type": "Body"
+    },
+    {
+      "name": "FRONT_BULKHEAD__INNER_CFRP",
+      "type": "Body"
+    },
+    {
+      "name": "REAR_BULKHEAD__INNER_CFRP",
+      "type": "Body"
+    },
+    {
+      "name": "FRONT_DECK__OUTER_CFRP",
+      "type": "Body"
+    },
+    {
+      "name": "FRONT_DECK__CORE_EQUIVALENT",
+      "type": "Body"
+    },
+    {
+      "name": "FRONT_DECK__INNER_CFRP",
+      "type": "Body"
+    },
+    {
+      "name": "V03_FRONT_EXTERNAL_U_STRAP",
+      "type": "Body"
+    },
+    {
+      "name": "V03_REAR_EXTERNAL_U_STRAP",
+      "type": "Body"
+    },
+    {
+      "name": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "type": "Body"
+    },
+    {
+      "name": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "type": "Body"
+    },
+    {
+      "name": "V03_LEFT_DECK_CORNER_STRAP",
+      "type": "Body"
+    },
+    {
+      "name": "V03_RIGHT_DECK_CORNER_STRAP",
+      "type": "Body"
+    }
+  ],
+  "features": [
+    {
+      "name": "",
+      "type": "DatumCsys"
+    },
+    {
+      "name": "TUB_U__OUTER_CFRP",
+      "type": "Extrude"
+    },
+    {
+      "name": "TUB_U__CORE_EQUIVALENT",
+      "type": "Extrude"
+    },
+    {
+      "name": "TUB_U__INNER_CFRP",
+      "type": "Extrude"
+    },
+    {
+      "name": "FRONT_BULKHEAD__OUTER_CFRP",
+      "type": "Extrude"
+    },
+    {
+      "name": "REAR_BULKHEAD__OUTER_CFRP",
+      "type": "Extrude"
+    },
+    {
+      "name": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "type": "Extrude"
+    },
+    {
+      "name": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "type": "Extrude"
+    },
+    {
+      "name": "FRONT_BULKHEAD__INNER_CFRP",
+      "type": "Extrude"
+    },
+    {
+      "name": "REAR_BULKHEAD__INNER_CFRP",
+      "type": "Extrude"
+    },
+    {
+      "name": "FRONT_DECK__OUTER_CFRP",
+      "type": "Extrude"
+    },
+    {
+      "name": "FRONT_DECK__CORE_EQUIVALENT",
+      "type": "Extrude"
+    },
+    {
+      "name": "FRONT_DECK__INNER_CFRP",
+      "type": "Extrude"
+    },
+    {
+      "name": "V03_FRONT_EXTERNAL_U_STRAP",
+      "type": "Extrude"
+    },
+    {
+      "name": "V03_REAR_EXTERNAL_U_STRAP",
+      "type": "Extrude"
+    },
+    {
+      "name": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "type": "Extrude"
+    },
+    {
+      "name": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "type": "Extrude"
+    },
+    {
+      "name": "V03_LEFT_DECK_CORNER_STRAP",
+      "type": "Extrude"
+    },
+    {
+      "name": "V03_RIGHT_DECK_CORNER_STRAP",
+      "type": "Extrude"
+    }
+  ],
+  "expressions": [
+    {
+      "name": "p0",
+      "formula": "0"
+    },
+    {
+      "name": "p1",
+      "formula": "1604.4"
+    },
+    {
+      "name": "p2",
+      "formula": "0"
+    },
+    {
+      "name": "p3",
+      "formula": "1604.4"
+    },
+    {
+      "name": "p4",
+      "formula": "0"
+    },
+    {
+      "name": "p5",
+      "formula": "1604.4"
+    },
+    {
+      "name": "p6",
+      "formula": "0"
+    },
+    {
+      "name": "p7",
+      "formula": "1.2"
+    },
+    {
+      "name": "p8",
+      "formula": "0"
+    },
+    {
+      "name": "p9",
+      "formula": "1.2"
+    },
+    {
+      "name": "p10",
+      "formula": "0"
+    },
+    {
+      "name": "p11",
+      "formula": "20.0"
+    },
+    {
+      "name": "p12",
+      "formula": "0"
+    },
+    {
+      "name": "p13",
+      "formula": "20.0"
+    },
+    {
+      "name": "p14",
+      "formula": "0"
+    },
+    {
+      "name": "p15",
+      "formula": "1.2"
+    },
+    {
+      "name": "p16",
+      "formula": "0"
+    },
+    {
+      "name": "p17",
+      "formula": "1.2"
+    },
+    {
+      "name": "p18",
+      "formula": "0"
+    },
+    {
+      "name": "p19",
+      "formula": "627.2"
+    },
+    {
+      "name": "p31",
+      "formula": "977.2"
+    },
+    {
+      "name": "p32",
+      "formula": "0"
+    },
+    {
+      "name": "p33",
+      "formula": "627.2"
+    },
+    {
+      "name": "p34",
+      "formula": "0"
+    },
+    {
+      "name": "p35",
+      "formula": "627.2"
+    },
+    {
+      "name": "p20",
+      "formula": "0"
+    },
+    {
+      "name": "p21",
+      "formula": "627.2"
+    },
+    {
+      "name": "p22",
+      "formula": "0"
+    },
+    {
+      "name": "p23",
+      "formula": "627.2"
+    },
+    {
+      "name": "p24",
+      "formula": "0"
+    },
+    {
+      "name": "p25",
+      "formula": "40.0"
+    },
+    {
+      "name": "p26",
+      "formula": "0"
+    },
+    {
+      "name": "p27",
+      "formula": "40.0"
+    },
+    {
+      "name": "p28",
+      "formula": "0"
+    },
+    {
+      "name": "p29",
+      "formula": "977.2"
+    },
+    {
+      "name": "p30",
+      "formula": "0"
+    }
+  ],
+  "components": []
+}
