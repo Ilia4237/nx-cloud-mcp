@@ -1,7 +1,22 @@
 {
   "task_id": "20261023194900_assign_v06_core",
-  "state": "running",
-  "result": {},
+  "state": "done",
+  "result": {
+    "task_id": "20261023194900_assign_v06_core",
+    "ok": true,
+    "artifacts": [
+      "V06_CORE_REPORT.txt"
+    ],
+    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\f5d2f571260d8634dd4fd658",
+    "remote_artifacts": [
+      {
+        "name": "V06_CORE_REPORT.txt",
+        "repository_path": "results/f5d2f571260d8634dd4fd658/V06_CORE_REPORT.txt",
+        "bytes": 103,
+        "sha256": "4f794a5692ded9b445a26ca106e2725e28821d0e9a04588a2cedb2b0562f59d6"
+      }
+    ]
+  },
   "error": "",
-  "updated_at": "2026-10-23T16:51:59.006742+00:00"
+  "updated_at": "2026-10-23T16:52:23.744961+00:00"
 }
