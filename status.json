@@ -1,7 +1,23 @@
 {
   "task_id": "20261023185100_build_v05",
-  "state": "running",
-  "result": {},
+  "state": "done",
+  "result": {
+    "task_id": "20261023185100_build_v05",
+    "ok": true,
+    "artifacts": [
+      "Monocoque_EDU_v05_unified_reinforcement.prt",
+      "V05_BUILD_REPORT.txt"
+    ],
+    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\4e89fed5d68b203d98c25338",
+    "remote_artifacts": [
+      {
+        "name": "V05_BUILD_REPORT.txt",
+        "repository_path": "results/4e89fed5d68b203d98c25338/V05_BUILD_REPORT.txt",
+        "bytes": 405,
+        "sha256": "bd7071c79c8f1e4ca48c158d762e1dd1b76ec0cb696a693e8926cf393fd76b34"
+      }
+    ]
+  },
   "error": "",
-  "updated_at": "2026-10-23T15:52:01.779962+00:00"
+  "updated_at": "2026-10-23T15:52:26.017932+00:00"
 }
