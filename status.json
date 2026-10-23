@@ -1,7 +1,10 @@
 {
   "task_id": "20261023135200_monocoque_preview_batchshade",
-  "state": "running",
-  "result": {},
-  "error": "",
-  "updated_at": "2026-10-23T10:54:15.367242+00:00"
+  "state": "failed",
+  "result": {
+    "ok": false,
+    "error": "Script SHA256 mismatch"
+  },
+  "error": "Script SHA256 mismatch",
+  "updated_at": "2026-10-23T10:54:17.810965+00:00"
 }
