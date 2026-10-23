@@ -1,22 +1,7 @@
 {
-  "task_id": "20261023174400_shade_method_diagnostic",
-  "state": "done",
-  "result": {
-    "task_id": "20261023174400_shade_method_diagnostic",
-    "ok": true,
-    "artifacts": [
-      "SHADE_METHODS.txt"
-    ],
-    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\d3a7a70629d5b8f87cda8ef0",
-    "remote_artifacts": [
-      {
-        "name": "SHADE_METHODS.txt",
-        "repository_path": "results/d3a7a70629d5b8f87cda8ef0/SHADE_METHODS.txt",
-        "bytes": 1016,
-        "sha256": "d4042ab9afedb10107685354733aec132f7f466c696165f5460be745af3053c1"
-      }
-    ]
-  },
+  "task_id": "20261023175400_preview_jpeg",
+  "state": "running",
+  "result": {},
   "error": "",
-  "updated_at": "2026-10-23T14:52:49.290919+00:00"
+  "updated_at": "2026-10-23T15:02:08.808577+00:00"
 }
