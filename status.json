@@ -1,7 +1,12 @@
 {
   "task_id": "20261023113100_agent_ping",
-  "state": "running",
-  "result": {},
+  "state": "done",
+  "result": {
+    "ok": true,
+    "message": "Local agent is reachable",
+    "agent_version": "0.3",
+    "time": "2026-10-23T08:36:16.176190+00:00"
+  },
   "error": "",
-  "updated_at": "2026-10-23T08:36:14.272581+00:00"
+  "updated_at": "2026-10-23T08:36:16.176190+00:00"
 }
