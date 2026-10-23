@@ -1,0 +1,252 @@
+{
+  "errors": [],
+  "bodies": [
+    {
+      "name": "TUB_U__OUTER_CFRP",
+      "solid": true,
+      "attributes": [],
+      "attribute_error": "'NoneType' object has no attribute 'Title'"
+    },
+    {
+      "name": "TUB_U__CORE_EQUIVALENT",
+      "solid": true,
+      "attributes": [],
+      "attribute_error": "'NoneType' object has no attribute 'Title'"
+    },
+    {
+      "name": "TUB_U__INNER_CFRP",
+      "solid": true,
+      "attributes": [],
+      "attribute_error": "'NoneType' object has no attribute 'Title'"
+    },
+    {
+      "name": "FRONT_BULKHEAD__OUTER_CFRP",
+      "solid": true,
+      "attributes": [],
+      "attribute_error": "'NoneType' object has no attribute 'Title'"
+    },
+    {
+      "name": "REAR_BULKHEAD__OUTER_CFRP",
+      "solid": true,
+      "attributes": [],
+      "attribute_error": "'NoneType' object has no attribute 'Title'"
+    },
+    {
+      "name": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "solid": true,
+      "attributes": [],
+      "attribute_error": "'NoneType' object has no attribute 'Title'"
+    },
+    {
+      "name": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "solid": true,
+      "attributes": [],
+      "attribute_error": "'NoneType' object has no attribute 'Title'"
+    },
+    {
+      "name": "FRONT_BULKHEAD__INNER_CFRP",
+      "solid": true,
+      "attributes": [],
+      "attribute_error": "'NoneType' object has no attribute 'Title'"
+    },
+    {
+      "name": "REAR_BULKHEAD__INNER_CFRP",
+      "solid": true,
+      "attributes": [],
+      "attribute_error": "'NoneType' object has no attribute 'Title'"
+    },
+    {
+      "name": "FRONT_DECK__OUTER_CFRP",
+      "solid": true,
+      "attributes": [],
+      "attribute_error": "'NoneType' object has no attribute 'Title'"
+    },
+    {
+      "name": "FRONT_DECK__CORE_EQUIVALENT",
+      "solid": true,
+      "attributes": [],
+      "attribute_error": "'NoneType' object has no attribute 'Title'"
+    },
+    {
+      "name": "FRONT_DECK__INNER_CFRP",
+      "solid": true,
+      "attributes": [],
+      "attribute_error": "'NoneType' object has no attribute 'Title'"
+    },
+    {
+      "name": "V05_FRONT_CONTINUOUS_REINFORCEMENT",
+      "solid": true,
+      "attributes": [],
+      "attribute_error": "'NoneType' object has no attribute 'Title'"
+    },
+    {
+      "name": "V03_REAR_EXTERNAL_U_STRAP",
+      "solid": true,
+      "attributes": [],
+      "attribute_error": "'NoneType' object has no attribute 'Title'"
+    },
+    {
+      "name": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "solid": true,
+      "attributes": [],
+      "attribute_error": "'NoneType' object has no attribute 'Title'"
+    },
+    {
+      "name": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "solid": true,
+      "attributes": [],
+      "attribute_error": "'NoneType' object has no attribute 'Title'"
+    }
+  ],
+  "materials": [],
+  "expressions": [
+    {
+      "name": "p0",
+      "formula": "0"
+    },
+    {
+      "name": "p1",
+      "formula": "1604.4"
+    },
+    {
+      "name": "p2",
+      "formula": "0"
+    },
+    {
+      "name": "p3",
+      "formula": "1604.4"
+    },
+    {
+      "name": "p4",
+      "formula": "0"
+    },
+    {
+      "name": "p5",
+      "formula": "1604.4"
+    },
+    {
+      "name": "p6",
+      "formula": "0"
+    },
+    {
+      "name": "p7",
+      "formula": "1.2"
+    },
+    {
+      "name": "p8",
+      "formula": "0"
+    },
+    {
+      "name": "p9",
+      "formula": "1.2"
+    },
+    {
+      "name": "p10",
+      "formula": "0"
+    },
+    {
+      "name": "p11",
+      "formula": "20.0"
+    },
+    {
+      "name": "p12",
+      "formula": "0"
+    },
+    {
+      "name": "p13",
+      "formula": "20.0"
+    },
+    {
+      "name": "p14",
+      "formula": "0"
+    },
+    {
+      "name": "p15",
+      "formula": "1.2"
+    },
+    {
+      "name": "p16",
+      "formula": "0"
+    },
+    {
+      "name": "p17",
+      "formula": "1.2"
+    },
+    {
+      "name": "p18",
+      "formula": "0"
+    },
+    {
+      "name": "p19",
+      "formula": "627.2"
+    },
+    {
+      "name": "p31",
+      "formula": "977.2"
+    },
+    {
+      "name": "p32",
+      "formula": "0"
+    },
+    {
+      "name": "p33",
+      "formula": "627.2"
+    },
+    {
+      "name": "p34",
+      "formula": "0"
+    },
+    {
+      "name": "p35",
+      "formula": "627.2"
+    },
+    {
+      "name": "p20",
+      "formula": "0"
+    },
+    {
+      "name": "p21",
+      "formula": "627.2"
+    },
+    {
+      "name": "p22",
+      "formula": "0"
+    },
+    {
+      "name": "p23",
+      "formula": "627.2"
+    },
+    {
+      "name": "p24",
+      "formula": "0"
+    },
+    {
+      "name": "p25",
+      "formula": "40.0"
+    },
+    {
+      "name": "p26",
+      "formula": "0"
+    },
+    {
+      "name": "p27",
+      "formula": "40.0"
+    },
+    {
+      "name": "p28",
+      "formula": "0"
+    },
+    {
+      "name": "p29",
+      "formula": "977.2"
+    },
+    {
+      "name": "p30",
+      "formula": "0"
+    }
+  ],
+  "source": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\4e89fed5d68b203d98c25338\\Monocoque_EDU_v05_unified_reinforcement.prt",
+  "units_enum": "1",
+  "is_millimeters": false,
+  "note": "Inventory only; no materials assigned; no laminate or strength validation; source not saved."
+}
