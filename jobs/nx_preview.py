@@ -39,31 +39,35 @@ finally:
 diagnostics = []
 try:
     view = part.ModelingViews.WorkView
-    try:
-        view.Orient(NXOpen.View.Canned.Isometric)
-    except Exception as exc:
-        diagnostics.append(f"orient: {exc}")
+    for orientation in [
+        getattr(NXOpen, "ViewCanned", None),
+        getattr(NXOpen, "View", None),
+    ]:
+        canned = getattr(orientation, "Isometric", None) if orientation is not None else None
+        if canned is not None:
+            try:
+                view.Orient(canned)
+                diagnostics.append(f"orientation={orientation.__name__}")
+                break
+            except Exception as exc:
+                diagnostics.append(f"orient {orientation.__name__}: {exc}")
     try:
         view.Fit()
     except Exception as exc:
         diagnostics.append(f"fit: {exc}")
 
     builder = part.ImageCaptureManager.CreateImageCaptureBuilder()
-    method, method_errors = set_first(
-        builder,
-        ["CaptureMethod", "CaptureType"],
-        NXOpen.Gateway.ImageCaptureBuilder.CaptureMethodType.GraphicsArea,
-    )
-    file_prop, file_errors = set_first(builder, ["Filename", "FileName", "File", "OutputFile"], str(png_path))
-    format_prop, format_errors = set_first(
-        builder,
-        ["Format", "ImageFormat", "FileType"],
-        NXOpen.Gateway.ImageCaptureBuilder.ImageFormat.Png,
-    )
-    diagnostics.append(f"capture_method={method} errors={method_errors}")
-    diagnostics.append(f"file_property={file_prop} errors={file_errors}")
-    diagnostics.append(f"format_property={format_prop} errors={format_errors}")
-    diagnostics.append(f"builder_attributes={sorted([n for n in dir(builder) if not n.startswith('_')])}")
+    png_format = NXOpen.Gateway.ImageCaptureBuilder.ImageFormat.Png
+    graphics_area = NXOpen.Gateway.ImageCaptureBuilder.CaptureMethodType.GraphicsArea
+    for prop, value in [
+        ("CaptureMethod", graphics_area),
+        ("File", str(png_path)),
+        ("ImageFile", str(png_path)),
+        ("Format", png_format),
+        ("ImageFormat", png_format),
+    ]:
+        name, error = set_first(builder, [prop], value)
+        diagnostics.append(f"{prop}={name} error={error}")
     commit_error = None
     try:
         builder.Commit()
