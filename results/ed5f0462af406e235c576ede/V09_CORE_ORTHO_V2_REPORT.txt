@@ -1,0 +1,12 @@
+{
+  "created": true,
+  "assigned": [
+    "TUB_U__CORE_EQUIVALENT",
+    "FRONT_BULKHEAD__CORE_EQUIVALENT",
+    "REAR_BULKHEAD__CORE_EQUIVALENT",
+    "FRONT_DECK__CORE_EQUIVALENT"
+  ],
+  "errors": [],
+  "saved": true,
+  "output": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\abdb0f5f42bd5f9d2cc3e356\\Monocoque_EDU_v06_materials.prt"
+}
