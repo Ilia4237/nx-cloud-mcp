@@ -1,0 +1,6 @@
+{
+  "errors": [
+    "'NXOpen.PhysicalMaterial' object has no attribute 'MaterialTable'"
+  ],
+  "saved": false
+}
