@@ -1,0 +1,10 @@
+NX_PREVIEW_FAILED
+Part: C:\Users\bobri\NX_Rollback_Backup_20261023_035742\NX_Automation\Monocoque_EDU_v04.prt
+No part was modified or saved.
+orient: No overload matches these arguments. The arguments passed are... 
+(NXOpen.ViewCannedMemberType).
+capture_method=CaptureMethod errors=None
+file_property=File errors=None
+format_property=Format errors=None
+builder_attributes=['CaptureMethod', 'CaptureMethodType', 'Commit', 'Destroy', 'File', 'Format', 'GetCommittedObjects', 'GetObject', 'GetRegion', 'ImageFile', 'ImageFormat', 'ImageSize', 'Null', 'PreviewBuilder', 'SetRegion', 'ShowResults', 'Size', 'Tag', 'Validate']
+commit=None
