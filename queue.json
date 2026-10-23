@@ -1,1 +1,1 @@
-{"task_id":"20261023202500_create_v17_laminate_v07_fixed","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/create_v17_laminate_v07_fixed.py","sha256":"dcfb10399ae13256fc69cb0be35a4b18a96ea335ec8ee7f4f85e493de53695c0"}}
+{"task_id":"20261023202800_export_v18_screenshots","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/export_v18_screenshots.py","sha256":"79090c1395191692e00e40f5a50ba001e463bfad0b6f33193deef55062f516a5"}}
