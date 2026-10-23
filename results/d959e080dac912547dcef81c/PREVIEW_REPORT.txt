@@ -1,0 +1,4 @@
+Starting JPEG PREVIEW attempt; no model save calls
+Part loaded and assigned for display
+Isometric view fitted; entering BatchShade PREVIEW JPEG 1280x720
+JPEG_CREATED bytes=204952
