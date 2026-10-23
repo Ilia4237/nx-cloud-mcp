@@ -16,6 +16,16 @@ session = NXOpen.Session.GetSession()
 if session is None:
     raise RuntimeError("NX session unavailable")
 
+def set_first(obj, names, value):
+    errors = []
+    for name in names:
+        try:
+            setattr(obj, name, value)
+            return name, None
+        except Exception as exc:
+            errors.append(f"{name}: {type(exc).__name__}: {exc}")
+    return None, "; ".join(errors)
+
 opened = session.Parts.Open(str(part_path))
 part, load_status = opened if isinstance(opened, tuple) else (opened, None)
 if part is None:
@@ -26,31 +36,59 @@ finally:
     if load_status is not None:
         load_status.Dispose()
 
+diagnostics = []
 try:
     view = part.ModelingViews.WorkView
     try:
         view.Orient(NXOpen.View.Canned.Isometric)
-    except Exception:
-        pass
+    except Exception as exc:
+        diagnostics.append(f"orient: {exc}")
     try:
         view.Fit()
+    except Exception as exc:
+        diagnostics.append(f"fit: {exc}")
+
+    builder = part.ImageCaptureManager.CreateImageCaptureBuilder()
+    method, method_errors = set_first(
+        builder,
+        ["CaptureMethod", "CaptureType"],
+        NXOpen.Gateway.ImageCaptureBuilder.CaptureMethodType.GraphicsArea,
+    )
+    file_prop, file_errors = set_first(builder, ["Filename", "FileName", "File", "OutputFile"], str(png_path))
+    format_prop, format_errors = set_first(
+        builder,
+        ["Format", "ImageFormat", "FileType"],
+        NXOpen.Gateway.ImageCaptureBuilder.ImageFormat.Png,
+    )
+    diagnostics.append(f"capture_method={method} errors={method_errors}")
+    diagnostics.append(f"file_property={file_prop} errors={file_errors}")
+    diagnostics.append(f"format_property={format_prop} errors={format_errors}")
+    diagnostics.append(f"builder_attributes={sorted([n for n in dir(builder) if not n.startswith('_')])}")
+    commit_error = None
+    try:
+        builder.Commit()
+    except Exception as exc:
+        commit_error = f"{type(exc).__name__}: {exc}"
+    diagnostics.append(f"commit={commit_error}")
+    try:
+        builder.Destroy()
     except Exception:
         pass
 
-    builder = part.ImageCaptureManager.CreateImageCaptureBuilder()
-    builder.CaptureMethod = NXOpen.Gateway.ImageCaptureBuilder.CaptureMethodType.GraphicsArea
-    builder.Format = NXOpen.Gateway.ImageCaptureBuilder.ImageFormat.Png
-    builder.File = str(png_path)
-    builder.Commit()
-    builder.Destroy()
-
     if not png_path.is_file() or png_path.stat().st_size == 0:
+        report_path.write_text(
+            "NX_PREVIEW_FAILED\n"
+            f"Part: {part_path}\n"
+            "No part was modified or saved.\n"
+            + "\n".join(diagnostics) + "\n",
+            encoding="utf-8",
+        )
         raise RuntimeError("NX did not create a non-empty PNG")
     report_path.write_text(
         "NX_PREVIEW_OK\n"
         f"Part: {part_path}\n"
         "Mode: read-only preview; no part was modified or saved.\n"
-        f"PNG: {png_path.name}\n",
+        f"PNG: {png_path.name}\n" + "\n".join(diagnostics) + "\n",
         encoding="utf-8",
     )
     print("NX_PREVIEW_OK")
