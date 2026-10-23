@@ -1,1 +1,1 @@
-{"task_id":"20261023202800_export_v18_screenshots","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/export_v18_screenshots.py","sha256":"79090c1395191692e00e40f5a50ba001e463bfad0b6f33193deef55062f516a5"}}
+{"task_id":"20261023202900_export_v19_screenshot_fixed","status":"pending","action":"run_job","parameters":{"application":"nx","mode":"batch","script_path":"jobs/export_v19_screenshot_fixed.py","sha256":"3b036d17ad6e4c75bd6d7863d6e0d70661db78165d3c2f3b602ac1438fbb6ad6"}}
