@@ -1,0 +1,75 @@
+{
+  "audit": [
+    {
+      "name": "TUB_U__OUTER_CFRP",
+      "error": "'NXOpen.Body' object has no attribute 'Volume'"
+    },
+    {
+      "name": "TUB_U__CORE_EQUIVALENT",
+      "error": "'NXOpen.Body' object has no attribute 'Volume'"
+    },
+    {
+      "name": "TUB_U__INNER_CFRP",
+      "error": "'NXOpen.Body' object has no attribute 'Volume'"
+    },
+    {
+      "name": "FRONT_BULKHEAD__OUTER_CFRP",
+      "error": "'NXOpen.Body' object has no attribute 'Volume'"
+    },
+    {
+      "name": "REAR_BULKHEAD__OUTER_CFRP",
+      "error": "'NXOpen.Body' object has no attribute 'Volume'"
+    },
+    {
+      "name": "FRONT_BULKHEAD__CORE_EQUIVALENT",
+      "error": "'NXOpen.Body' object has no attribute 'Volume'"
+    },
+    {
+      "name": "REAR_BULKHEAD__CORE_EQUIVALENT",
+      "error": "'NXOpen.Body' object has no attribute 'Volume'"
+    },
+    {
+      "name": "FRONT_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.Body' object has no attribute 'Volume'"
+    },
+    {
+      "name": "REAR_BULKHEAD__INNER_CFRP",
+      "error": "'NXOpen.Body' object has no attribute 'Volume'"
+    },
+    {
+      "name": "FRONT_DECK__OUTER_CFRP",
+      "error": "'NXOpen.Body' object has no attribute 'Volume'"
+    },
+    {
+      "name": "FRONT_DECK__CORE_EQUIVALENT",
+      "error": "'NXOpen.Body' object has no attribute 'Volume'"
+    },
+    {
+      "name": "FRONT_DECK__INNER_CFRP",
+      "error": "'NXOpen.Body' object has no attribute 'Volume'"
+    },
+    {
+      "name": "V05_FRONT_CONTINUOUS_REINFORCEMENT",
+      "error": "'NXOpen.Body' object has no attribute 'Volume'"
+    },
+    {
+      "name": "V03_REAR_EXTERNAL_U_STRAP",
+      "error": "'NXOpen.Body' object has no attribute 'Volume'"
+    },
+    {
+      "name": "V03_LEFT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.Body' object has no attribute 'Volume'"
+    },
+    {
+      "name": "V03_RIGHT_COCKPIT_EDGE_CAP",
+      "error": "'NXOpen.Body' object has no attribute 'Volume'"
+    }
+  ],
+  "expressions": {},
+  "layup": {},
+  "errors": [
+    "First parameter is invalid. Expecting str type, found WindowsPath."
+  ],
+  "saved": false,
+  "output": null
+}
