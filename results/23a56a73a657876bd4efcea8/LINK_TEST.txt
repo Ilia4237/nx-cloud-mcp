@@ -1,0 +1,3 @@
+LINK_TEST_OK
+Synthetic PNG transport test only; not an NX model image.
+No part was opened, modified or saved.
