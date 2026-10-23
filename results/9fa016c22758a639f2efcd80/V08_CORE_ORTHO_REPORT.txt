@@ -1,0 +1,9 @@
+{
+  "deleted": false,
+  "created": false,
+  "assigned": [],
+  "errors": [
+    "'NXOpen.PhysicalMaterialCollection' object has no attribute 'RemoveMaterial'"
+  ],
+  "saved": false
+}
