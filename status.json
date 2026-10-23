@@ -1,14 +1,7 @@
 {
-  "task_id": "20261023115600_monocoque_preview",
-  "state": "failed",
-  "result": {
-    "task_id": "20261023115600_monocoque_preview",
-    "ok": false,
-    "error": "Traceback (most recent call last):\n  File \"C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\fc6f5f3f2eee9356908e5a58\\runner.py\", line 9, in <module>\n    runpy.run_path(str(root/'payload.py'),run_name='__main__')\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 289, in run_path\n    return _run_module_code(code, init_globals, run_name,\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 96, in _run_module_code\n    _run_code(code, mod_globals, init_globals,\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\fc6f5f3f2eee9356908e5a58\\payload.py\", line 7, in <module>\n    part_path = Path(os.environ[\"NX_PART_PATH\"])\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\os.py\", line 680, in __getitem__\n    raise KeyError(key) from None\nKeyError: 'NX_PART_PATH'\n",
-    "artifacts": [],
-    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\fc6f5f3f2eee9356908e5a58",
-    "remote_artifacts": []
-  },
-  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\fc6f5f3f2eee9356908e5a58\\runner.py\", line 9, in <module>\n    runpy.run_path(str(root/'payload.py'),run_name='__main__')\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 289, in run_path\n    return _run_module_code(code, init_globals, run_name,\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 96, in _run_module_code\n    _run_code(code, mod_globals, init_globals,\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\fc6f5f3f2eee9356908e5a58\\payload.py\", line 7, in <module>\n    part_path = Path(os.environ[\"NX_PART_PATH\"])\n  File \"C:\\Program Files\\Siemens\\NX2212\\nxbin\\python\\Python310.zip\\os.py\", line 680, in __getitem__\n    raise KeyError(key) from None\nKeyError: 'NX_PART_PATH'\n",
-  "updated_at": "2026-10-23T08:57:26.430549+00:00"
+  "task_id": "20261023120100_monocoque_preview_fixed",
+  "state": "running",
+  "result": {},
+  "error": "",
+  "updated_at": "2026-10-23T09:03:53.058380+00:00"
 }
