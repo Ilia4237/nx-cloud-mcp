@@ -1,7 +1,7 @@
 {
   "task_id": "20261023113100_agent_ping",
-  "state": "queued",
+  "state": "running",
   "result": {},
   "error": "",
-  "updated_at": "2026-10-23T08:36:12.079152+00:00"
+  "updated_at": "2026-10-23T08:36:14.272581+00:00"
 }
