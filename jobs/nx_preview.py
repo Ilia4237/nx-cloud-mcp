@@ -22,7 +22,7 @@ part, load_status = opened if isinstance(opened, tuple) else (opened, None)
 if part is None:
     raise RuntimeError("NX could not open the part")
 try:
-    session.Parts.SetDisplay(part, True, True, load_status)
+    session.Parts.SetDisplay(part, True, True)
 finally:
     if load_status is not None:
         load_status.Dispose()
