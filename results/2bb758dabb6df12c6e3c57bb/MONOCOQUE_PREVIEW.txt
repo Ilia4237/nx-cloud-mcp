@@ -1,0 +1,19 @@
+NX_PREVIEW_FAILED
+Part: C:\Users\bobri\NX_Rollback_Backup_20261023_035742\NX_Automation\Monocoque_EDU_v04.prt
+No part was modified or saved.
+before CaptureMethod=ImageCaptureBuilderCaptureMethodTypeMemberType: <NXOpen.Gateway.ImageCaptureBuilderCaptureMethodTypeMemberType object at 0x0000023FEDFCB870>
+before File=str: 'C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\2bb758dabb6df12c6e3c57bb\\MONOCOQUE_PREVIEW.png'
+before ImageFile=str: 'C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\2bb758dabb6df12c6e3c57bb\\MONOCOQUE_PREVIEW.png'
+before Format=ImageCaptureBuilderImageFormatMemberType: <NXOpen.Gateway.ImageCaptureBuilderImageFormatMemberType object at 0x0000023FEDFCB990>
+before ImageFormat=type: <class 'NXOpen.Gateway.ImageCaptureBuilderImageFormat'>
+before ImageSize=type: <class 'NXOpen.Gateway.ImageCaptureBuilderImageSize'>
+before Size=ImageCaptureBuilderImageSizeMemberType: <NXOpen.Gateway.ImageCaptureBuilderImageSizeMemberType object at 0x0000023FEDFCBA90>
+commit=None
+after CaptureMethod=ImageCaptureBuilderCaptureMethodTypeMemberType: <NXOpen.Gateway.ImageCaptureBuilderCaptureMethodTypeMemberType object at 0x0000023FEDFCB870>
+after File=str: 'C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\2bb758dabb6df12c6e3c57bb\\MONOCOQUE_PREVIEW.png'
+after ImageFile=str: 'C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\2bb758dabb6df12c6e3c57bb\\MONOCOQUE_PREVIEW.png'
+after Format=ImageCaptureBuilderImageFormatMemberType: <NXOpen.Gateway.ImageCaptureBuilderImageFormatMemberType object at 0x0000023FEDFCB990>
+after ImageFormat=type: <class 'NXOpen.Gateway.ImageCaptureBuilderImageFormat'>
+after ImageSize=type: <class 'NXOpen.Gateway.ImageCaptureBuilderImageSize'>
+after Size=ImageCaptureBuilderImageSizeMemberType: <NXOpen.Gateway.ImageCaptureBuilderImageSizeMemberType object at 0x0000023FEDFCBA90>
+show_results=None
