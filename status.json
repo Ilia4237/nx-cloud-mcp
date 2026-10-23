@@ -1,7 +1,29 @@
 {
   "task_id": "20261023113900_link_test",
-  "state": "running",
-  "result": {},
+  "state": "done",
+  "result": {
+    "task_id": "20261023113900_link_test",
+    "ok": true,
+    "artifacts": [
+      "LINK_TEST.png",
+      "LINK_TEST.txt"
+    ],
+    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\23a56a73a657876bd4efcea8",
+    "remote_artifacts": [
+      {
+        "name": "LINK_TEST.png",
+        "repository_path": "results/23a56a73a657876bd4efcea8/LINK_TEST.png",
+        "bytes": 711,
+        "sha256": "c98c54bea34b068b7be604f51e7cf9b70ea248280ed9653dc179e9ee277a55c5"
+      },
+      {
+        "name": "LINK_TEST.txt",
+        "repository_path": "results/23a56a73a657876bd4efcea8/LINK_TEST.txt",
+        "bytes": 113,
+        "sha256": "3d389f7bd0591a12ac2ba6e4be8a7f60d0c8309ece16b67f34b901855802c57e"
+      }
+    ]
+  },
   "error": "",
-  "updated_at": "2026-10-23T08:46:39.639686+00:00"
+  "updated_at": "2026-10-23T08:46:52.844581+00:00"
 }
