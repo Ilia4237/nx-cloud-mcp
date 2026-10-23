@@ -16,27 +16,29 @@ session = NXOpen.Session.GetSession()
 if session is None:
     raise RuntimeError("NX session unavailable")
 ufs = NXOpen.UF.UFSession.GetUFSession()
+disp = ufs.Disp
 
-def resolve(*names):
-    value = None
-    for name in names:
+def call_variants(func, variants):
+    errors = []
+    for args in variants:
         try:
-            value = getattr(value, name) if value is not None else name
-        except Exception:
-            return None
-    return value
+            result = func(*args)
+            return args, result, None
+        except Exception as exc:
+            errors.append(f"{args!r}: {type(exc).__name__}: {exc}")
+    return None, None, " | ".join(errors)
 
-shade_method = None
-for option in [
-    resolve(ufs, "Disp", "ShadeMethod", "Preview"),
-    resolve(ufs, "Disp", "ShadeMethod", "HighQuality"),
-    resolve(ufs, "Disp", "ShadeMethod", "Normal"),
-]:
-    if option is not None:
-        shade_method = option
-        break
-if shade_method is None:
-    raise RuntimeError("Unable to resolve UF Disp ShadeMethod")
+method_candidates = []
+for container in [disp, ufs]:
+    for group in ["ShadeMethod", "UFDispShadeMethod", "ShadeMode"]:
+        obj = getattr(container, group, None)
+        if obj is None:
+            continue
+        for name in ["Preview", "HighQuality", "Normal", "Wireframe"]:
+            value = getattr(obj, name, None)
+            if value is not None:
+                method_candidates.append(value)
+method_candidates += [0, 1, 2, 3]
 
 opened = session.Parts.Open(str(part_path))
 part, load_status = opened if isinstance(opened, tuple) else (opened, None)
@@ -48,20 +50,38 @@ finally:
     if load_status is not None:
         load_status.Dispose()
 
+diagnostics = []
 try:
-    view = part.ModelingViews.WorkView
     try:
-        view.Fit()
-    except Exception:
-        pass
-    ufs.Disp.BatchShade(str(png_path), 1280, 720, shade_method)
+        part.ModelingViews.WorkView.Fit()
+    except Exception as exc:
+        diagnostics.append(f"fit: {exc}")
+
+    variants = []
+    for method in method_candidates:
+        variants.append((str(png_path), 1280, 720, method))
+    variants.append((str(png_path), 1280, 720))
+    variants.append((str(png_path),))
+    args, result, errors = call_variants(disp.BatchShade, variants)
+    diagnostics.append(f"batchshade_args={args!r}")
+    diagnostics.append(f"batchshade_result={result!r}")
+    diagnostics.append(f"batchshade_errors={errors}")
+    diagnostics.append(f"disp_attributes={sorted([n for n in dir(disp) if not n.startswith('_')])}")
+
     if not png_path.is_file() or png_path.stat().st_size == 0:
+        report_path.write_text(
+            "NX_PREVIEW_FAILED\n"
+            f"Part: {part_path}\n"
+            "No part was modified or saved.\n"
+            + "\n".join(diagnostics) + "\n",
+            encoding="utf-8",
+        )
         raise RuntimeError("NX BatchShade did not create a non-empty PNG")
     report_path.write_text(
         "NX_PREVIEW_OK\n"
         f"Part: {part_path}\n"
         "Mode: read-only BatchShade preview; no part was modified or saved.\n"
-        f"PNG: {png_path.name}\n",
+        f"PNG: {png_path.name}\n" + "\n".join(diagnostics) + "\n",
         encoding="utf-8",
     )
     print("NX_PREVIEW_OK")
