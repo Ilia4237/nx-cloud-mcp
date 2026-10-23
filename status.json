@@ -1,26 +1,7 @@
 {
-  "task_id": "20261023104300_monocoque_v01",
-  "state": "done",
-  "result": {
-    "task_id": "20261023104300_monocoque_v01",
-    "ok": true,
-    "artifacts": [
-      "FLOOR_CORE.prt",
-      "FLOOR_INNER.prt",
-      "FLOOR_OUTER.prt",
-      "FRONT_CORE.prt",
-      "FRONT_INNER.prt",
-      "FRONT_OUTER.prt",
-      "MONOCOQUE_V01.prt",
-      "SIDE_L_CORE.prt",
-      "SIDE_L_INNER.prt",
-      "SIDE_L_OUTER.prt",
-      "SIDE_R_CORE.prt",
-      "SIDE_R_INNER.prt",
-      "SIDE_R_OUTER.prt"
-    ],
-    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\c3bb177e06ab4645b4f87547"
-  },
+  "task_id": "20261023111500_master_v02",
+  "state": "queued",
+  "result": {},
   "error": "",
-  "updated_at": "2026-10-23T07:45:05.608942+00:00"
+  "updated_at": "2026-10-23T08:17:13.136787+00:00"
 }
