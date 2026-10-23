@@ -1,22 +1,7 @@
 {
-  "task_id": "20261023201200_assign_v10_core_props_auto",
-  "state": "done",
-  "result": {
-    "task_id": "20261023201200_assign_v10_core_props_auto",
-    "ok": true,
-    "artifacts": [
-      "V10_CORE_PROPS_AUTO_REPORT.txt"
-    ],
-    "local_job_folder": "C:\\Users\\bobri\\Siemens_Local_Agent\\data\\jobs\\70177439958963206040d2f4",
-    "remote_artifacts": [
-      {
-        "name": "V10_CORE_PROPS_AUTO_REPORT.txt",
-        "repository_path": "results/70177439958963206040d2f4/V10_CORE_PROPS_AUTO_REPORT.txt",
-        "bytes": 3501,
-        "sha256": "ae3dc89e0ab7182b4fecfb899c519502985e63dec8c57b46820d7cfaaf796a35"
-      }
-    ]
-  },
+  "task_id": "20261023201300_assign_v11_core_v3_props",
+  "state": "running",
+  "result": {},
   "error": "",
-  "updated_at": "2026-10-23T17:13:40.801686+00:00"
+  "updated_at": "2026-10-23T17:14:38.486276+00:00"
 }
